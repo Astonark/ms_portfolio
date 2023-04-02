@@ -39,9 +39,9 @@ export default function AboutPage() {
             </main>
 
             <section class="mt-40">
-                <h2 class="text-center text-6xl font-semibold">Mes réalisations</h2>
-                <img class="m-auto" src="/reals.png" alt="" />
-                <span class="text-center"><Button>En savoir plus</Button></span>
+                <h2 class="text-center text-6xl font-semibold mb-6">Mes réalisations</h2>
+                <img class="mx-auto" src="/reals.png" alt="" />
+                <div class="text-center mt-6"><Button>En savoir plus</Button></div>
             </section>
             <Footer></Footer>
         </div>
