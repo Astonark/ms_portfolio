@@ -1,10 +1,7 @@
-import { JSX } from "preact";
-import { IS_BROWSER } from "$fresh/runtime.ts";
-
 export function Footer() {
   return (
     <footer>
-        <img src="" alt="" />
+        <img src="/footer.png" alt="" />
         <div>
             <ul>
                 <li>Accueil</li>
