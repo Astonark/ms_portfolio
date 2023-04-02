@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div>
             <header>
                 <Navbar></Navbar>
-                <div class="flex justify-center mt-40">
+                <div class="flex justify-center mt-20">
                     <div class="mt-12 pt-20">
                         <h2 class="text-9xl font-bold">Maëlly <br/> Sorel</h2>
                         <h1 class="text-5xl mb-3">Designeuse graphique</h1>
