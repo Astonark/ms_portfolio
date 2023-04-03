@@ -39,7 +39,7 @@ export default function Home() {
             </main>
 
             <section class="mt-20 md:mt-40">
-                <h2 class="text-center text-4xl font-semibold mb-6">Mes réalisations</h2>
+                <h2 class="text-center text-4xl font-semibold mb-6" id="reals">Mes réalisations</h2>
                 <div class="grid gap-4 grid-cols-2 grid-rows-3 mx-6">
                     <div><img src="images/projects/salsa_loca.png" alt="Salsa Loca" /></div>
                     <div><img src="images/projects/on_fleek.png" alt="" /></div>
