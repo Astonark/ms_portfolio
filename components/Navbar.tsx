@@ -8,14 +8,14 @@ export function Navbar() {
           <a href="/">
             <img
               src="/logo.svg"
-              class="w-12 h-auto ml-3 md:w-24 md:h-20 md:ml-20"
+              class="w-14 h-auto ml-3 md:w-24 md:h-20 md:ml-20"
               alt="cactus"
             />
           </a>
         </li>
         <span class="flex items-center">
-          <li class="font-medium text-xs md:text-3xl">À propos de moi</li>
-          <li class="font-medium text-xs ml-3 md:text-3xl md:ml-20">Réalisations</li>
+          <li class="font-medium text-s md:text-3xl">À propos de moi</li>
+          <li class="font-medium text-s ml-3 md:text-3xl md:ml-20">Réalisations</li>
           <li class="mx-3 md:mx-20"><Button><a href="/contact">Contact</a></Button></li>
         </span>
      </ul>
