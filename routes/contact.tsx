@@ -24,7 +24,7 @@ export default function AboutPage() {
               </p>
               <ul class="flex">
                 <li>
-                  <a href="https://www.linkedin.com/in/maëlly-sorel-62708221a/">
+                  <a href="https://www.behance.net/rackelsorel">
                     <img src="images/icons/black_behance.png" alt="Behance" width="35" height="35" class="mr-5"/>
                   </a>
                 </li>
@@ -34,7 +34,7 @@ export default function AboutPage() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/maëlly-sorel-62708221a/">
+                  <a href="https://instagram.com/snwomel?igshid=YmMyMTA2M2Y=">
                     <img src="images/icons/black_instagram.png" alt="Behance" width="35" height="35" class="mr-5"/>
                   </a>
                 </li>
