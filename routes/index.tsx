@@ -20,7 +20,7 @@ export default function Home() {
                             <li><img src="images/icons/instagram.png" alt="Instagram" width="35 md:48" height="35 md:48"/></li>
                         </ul>
                     </div>
-                    <img src="md:/banner_logo.png" alt="" />
+                    <img src="/banner_logo.png" alt="" class="hidden"/>
                 </div>
             </header>
 
