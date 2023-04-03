@@ -1,6 +1,7 @@
-import { Button } from "../components/Button.tsx";
-import { Footer } from "../components/Footer.tsx";
-import { Navbar } from "../components/Navbar.tsx";
+
+import { Button } from "../../components/Button.tsx";
+import { Footer } from "../../components/Footer.tsx";
+import { Navbar } from "../../components/Navbar.tsx";
 
 // routes/about.tsx
 
@@ -11,8 +12,8 @@ export default function Home() {
                 <Navbar></Navbar>
                 <div class="flex justify-center mt-16">
                     <div class="mt-12 pt-20">
-                        <h1 class="text-9xl font-bold">Maëlly <br/> Sorel</h1>
-                        <h2 class="text-5xl mb-3">Designeuse graphique</h2>
+                        <h2 class="text-9xl font-bold">Maëlly <br/> Sorel</h2>
+                        <h1 class="text-5xl mb-3">Designeuse graphique</h1>
                         <Button>Mes réalisations</Button>
                         <ul class="flex mt-3">
                             <li><img src="/behance.png" alt="Behance" width="48" height="48" class="mr-5"/></li>
