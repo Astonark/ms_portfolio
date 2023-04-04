@@ -7,12 +7,12 @@ export default function AboutPage() {
     return (
       <>
         <Navbar></Navbar>
-        <main class="my-20">
-          <h1 class="text-9xl font-bold text-center">Me contacter</h1>
-          <div class="flex justify-center items-center mt-40">
-            <img src="/profile_picture.png" alt="Photo de profil" />
-            <span class="ml-20">
-              <h2 class="font-medium text-5xl">Maëlly Sorel</h2>
+        <main class="mt-20 md:my-20">
+          <h1 class="text-5xl md:text-9xl font-bold text-center">Me <br/> contacter</h1>
+          <div class="flex flex-col justify-center items-center mt-12 md:mt-40">
+            <img src="/profile_picture.png" alt="Photo de profil" class="hidden" />
+            <span class="md:ml-20">
+              <h2 class="font-medium text-3xl">Maëlly Sorel</h2>
               <h3 class="text-2xl mb-6">Designeuse Graphisqte</h3>
               <p class="text-xl">
                   <img src="images/icons/black_mail.png" alt="mail icon" class="inline mr-2" />
