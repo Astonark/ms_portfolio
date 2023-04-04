@@ -48,7 +48,7 @@ export default function Home() {
                     <div><img src="images/projects/neopace.png" alt="" /></div>
                     <div><img src="images/projects/nuevo_mundo.png" alt="" /></div>
                     <div><img src="images/projects/nebula.png" alt="" /></div>
-                    <div><img src="images/projects/illustrations.png" alt="" /></div>
+                    <div><a href="/illustrations"><img src="images/projects/illustrations.png" alt="" /></a></div>
                 </div>
             </section>
             <Footer></Footer>
