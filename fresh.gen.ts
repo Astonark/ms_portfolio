@@ -4,35 +4,30 @@
 
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/about.tsx";
-import * as $1 from "./routes/api/joke.ts";
-import * as $2 from "./routes/contact.tsx";
-import * as $3 from "./routes/illustrations.tsx";
-import * as $4 from "./routes/index.tsx";
-import * as $5 from "./routes/nature-emois.tsx";
-import * as $6 from "./routes/nebula.tsx";
-import * as $7 from "./routes/neopace.tsx";
-import * as $8 from "./routes/nuevo-mundo.tsx";
-import * as $9 from "./routes/on-fleek.tsx";
-import * as $10 from "./routes/salsa-loca.tsx";
-import * as $$0 from "./islands/Counter.tsx";
+import * as $1 from "./routes/contact.tsx";
+import * as $2 from "./routes/illustrations.tsx";
+import * as $3 from "./routes/index.tsx";
+import * as $4 from "./routes/nature-emois.tsx";
+import * as $5 from "./routes/nebula.tsx";
+import * as $6 from "./routes/neopace.tsx";
+import * as $7 from "./routes/nuevo-mundo.tsx";
+import * as $8 from "./routes/on-fleek.tsx";
+import * as $9 from "./routes/salsa-loca.tsx";
 
 const manifest = {
   routes: {
     "./routes/about.tsx": $0,
-    "./routes/api/joke.ts": $1,
-    "./routes/contact.tsx": $2,
-    "./routes/illustrations.tsx": $3,
-    "./routes/index.tsx": $4,
-    "./routes/nature-emois.tsx": $5,
-    "./routes/nebula.tsx": $6,
-    "./routes/neopace.tsx": $7,
-    "./routes/nuevo-mundo.tsx": $8,
-    "./routes/on-fleek.tsx": $9,
-    "./routes/salsa-loca.tsx": $10,
+    "./routes/contact.tsx": $1,
+    "./routes/illustrations.tsx": $2,
+    "./routes/index.tsx": $3,
+    "./routes/nature-emois.tsx": $4,
+    "./routes/nebula.tsx": $5,
+    "./routes/neopace.tsx": $6,
+    "./routes/nuevo-mundo.tsx": $7,
+    "./routes/on-fleek.tsx": $8,
+    "./routes/salsa-loca.tsx": $9,
   },
-  islands: {
-    "./islands/Counter.tsx": $$0,
-  },
+  islands: {},
   baseUrl: import.meta.url,
   config,
 };
