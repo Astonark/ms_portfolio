@@ -9,9 +9,10 @@ import * as $2 from "./routes/contact.tsx";
 import * as $3 from "./routes/illustrations.tsx";
 import * as $4 from "./routes/index.tsx";
 import * as $5 from "./routes/nebula.tsx";
-import * as $6 from "./routes/nuevo-mundo.tsx";
-import * as $7 from "./routes/on-fleek.tsx";
-import * as $8 from "./routes/salsa-loca.tsx";
+import * as $6 from "./routes/neopace.tsx";
+import * as $7 from "./routes/nuevo-mundo.tsx";
+import * as $8 from "./routes/on-fleek.tsx";
+import * as $9 from "./routes/salsa-loca.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -22,9 +23,10 @@ const manifest = {
     "./routes/illustrations.tsx": $3,
     "./routes/index.tsx": $4,
     "./routes/nebula.tsx": $5,
-    "./routes/nuevo-mundo.tsx": $6,
-    "./routes/on-fleek.tsx": $7,
-    "./routes/salsa-loca.tsx": $8,
+    "./routes/neopace.tsx": $6,
+    "./routes/nuevo-mundo.tsx": $7,
+    "./routes/on-fleek.tsx": $8,
+    "./routes/salsa-loca.tsx": $9,
   },
   islands: {
     "./islands/Counter.tsx": $$0,

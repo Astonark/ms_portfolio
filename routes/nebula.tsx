@@ -30,16 +30,16 @@ export default function Nebula() {
                     </span>
                 </div>
 
-            <div class="mx-3">
-                <img src="/images/projects/nebula/illustration.jpg" alt=""/>
-                <img src="/images/projects/nebula/vinyle.jpg" alt="" class="my-3"/>
-                    <div class="grid grid-cols-2 grid-rows-1 my-3">
-                        <img src="/images/projects/nebula/book.png" alt="" />
-                        <img src="/images/projects/nebula/cover.png" alt="" />
-                    </div>
-                <img src="/images/projects/nebula/cd.jpg" alt="" class=""/>
-                <img src="/images/projects/nebula/poster.jpg" alt="" class="my-3"/>
-            </div>
+                <div class="mx-3">
+                    <img src="/images/projects/nebula/illustration.jpg" alt=""/>
+                    <img src="/images/projects/nebula/vinyle.jpg" alt="" class="my-3"/>
+                        <div class="grid grid-cols-2 grid-rows-1 my-3">
+                            <img src="/images/projects/nebula/book.png" alt="" />
+                            <img src="/images/projects/nebula/cover.png" alt="" />
+                        </div>
+                    <img src="/images/projects/nebula/cd.jpg" alt="" class=""/>
+                    <img src="/images/projects/nebula/poster.jpg" alt="" class="my-3"/>
+                </div>
             </main>
             <Footer></Footer>
         </>
