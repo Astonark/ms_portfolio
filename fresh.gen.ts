@@ -12,7 +12,8 @@ import * as $5 from "./routes/nebula.tsx";
 import * as $6 from "./routes/neopace.tsx";
 import * as $7 from "./routes/nuevo-mundo.tsx";
 import * as $8 from "./routes/on-fleek.tsx";
-import * as $9 from "./routes/salsa-loca.tsx";
+import * as $9 from "./routes/pok.tsx";
+import * as $10 from "./routes/salsa-loca.tsx";
 
 const manifest = {
   routes: {
@@ -25,7 +26,8 @@ const manifest = {
     "./routes/neopace.tsx": $6,
     "./routes/nuevo-mundo.tsx": $7,
     "./routes/on-fleek.tsx": $8,
-    "./routes/salsa-loca.tsx": $9,
+    "./routes/pok.tsx": $9,
+    "./routes/salsa-loca.tsx": $10,
   },
   islands: {},
   baseUrl: import.meta.url,

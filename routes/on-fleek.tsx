@@ -11,7 +11,6 @@ export default function OnFleek() {
             </header>
 
             <main class="flex flex-col justify-center items-center mt-12 md:mt-32">
-                <img src="/images/projects/on_fleek/side.png" alt="" class="absolute left-0 top-96"/>
                 <img src="/images/projects/on_fleek/logo.png" alt="" class=""/>
                 <div class="text-center">
                     <span class="text-left inline-block mx-6 md:w-1/3">
