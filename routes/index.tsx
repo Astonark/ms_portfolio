@@ -51,11 +51,31 @@ export default function Home() {
                             <img src="images/projects/on_fleek.png" alt="" />
                         </a>
                     </div>
-                    <div><img src="images/projects/pok.png" alt="" /></div>
-                    <div><img src="images/projects/natur_emois.png" alt="" /></div>
-                    <div><img src="images/projects/neopace.png" alt="" /></div>
-                    <div><img src="images/projects/nuevo_mundo.png" alt="" /></div>
-                    <div><img src="images/projects/nebula.png" alt="" /></div>
+                    <div>
+                        <a href="/pok">
+                            <img src="images/projects/pok.png" alt="" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/nature-emois">
+                            <img src="images/projects/natur_emois.png" alt="" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/neopace">
+                            <img src="images/projects/neopace.png" alt="" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/nuevo-mundo">
+                            <img src="images/projects/nuevo_mundo.png" alt="" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/nebula">
+                            <img src="images/projects/nebula.png" alt="" />
+                        </a>
+                    </div>
                     <div>
                         <a href="/illustrations">
                             <img src="images/projects/illustrations.png" alt="" />
