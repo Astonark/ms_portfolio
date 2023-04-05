@@ -37,7 +37,7 @@ export default function SalsaLoca() {
                     </p>
                 </div>
                 <img src="/images/projects/salsa_loca/divices_mockup.png" alt="" class="mb-6"/>
-                <img src="/images/projects/salsa_loca/homepage.png" alt="" class=""/>
+                <img src="/images/projects/salsa_loca/homepage.png" alt="" class="" width="60%" height="auot"/>
             </main>
             <Footer></Footer>
         </>
