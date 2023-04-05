@@ -58,4 +58,4 @@ export default function NuevoMundo() {
             <Footer></Footer>
         </>
     );
-  }
+}

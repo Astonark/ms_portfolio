@@ -30,7 +30,7 @@ export default function Home() {
                     <h2 class="text-s font-bold mt-3 text-xl md:text-5xl mb-3 md:mb-6">À propos de moi</h2>
                     <p class="text-s mx-6 md:text-2xl mb-6">Salut et bienvenue sur mon site &nbsp;! <br/>
                         Moi c'est Maëlly et je suis une jeune designeuse graphique encore en formation. <br/>
-                        Je suis également auto entrepreneuse depusi peu spécialiser dans l'UX/UI et le branding. <br/>
+                        Je suis également auto entrepreneuse depuis peu spécialiser dans l'UX/UI et le branding. <br/>
                         Vous retrouverez ici ce dont je suis capable, ce que j'ai à vous proposer et ce que j'ai déjà pu réaliser. <br/>
                         A plus tard !!
                     </p>
