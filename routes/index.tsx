@@ -46,7 +46,11 @@ export default function Home() {
                             <img src="images/projects/salsa_loca.png" alt="Salsa Loca" />
                         </a>
                     </div>
-                    <div><img src="images/projects/on_fleek.png" alt="" /></div>
+                    <div>
+                        <a href="/on-fleek">
+                            <img src="images/projects/on_fleek.png" alt="" />
+                        </a>
+                    </div>
                     <div><img src="images/projects/pok.png" alt="" /></div>
                     <div><img src="images/projects/natur_emois.png" alt="" /></div>
                     <div><img src="images/projects/neopace.png" alt="" /></div>
