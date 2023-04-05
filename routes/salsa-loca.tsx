@@ -1,4 +1,3 @@
-import { Button } from "../components/Button.tsx";
 import { Footer } from "../components/Footer.tsx";
 import { Navbar } from "../components/Navbar.tsx";
 
@@ -12,6 +11,7 @@ export default function SalsaLoca() {
             </header>
 
             <main class="flex flex-col justify-center items-center mt-12 md:mt-32">
+                <img src="/images/projects/salsa_loca/side.png" alt="" class="absolute left-0 top-96"/>
                 <img src="/images/projects/salsa_loca/logo.png" alt="" class=""/>
                 <div class="text-center">
                     <span class="text-left inline-block mx-6 md:w-1/3">
