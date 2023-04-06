@@ -20,7 +20,7 @@ export default function Pok() {
                     <span class="text-left inline-block mx-6 md:w-1/3">
                         <h2 class="mt-6 text-xl mx-6 md:text-5xl mb-3 md:mb-6">Création d'une agence de design, POK&nbsp;: </h2>
                         <ul class="text-s mx-6 list-disc list-inside mb-6">
-                            <li>Définition d'un besoin et de la cilbe de l'angence</li>
+                            <li>Définition d'un besoin et de la cible de l'agence</li>
                             <li>Création de l'identité de l'entreprise</li>
                             <li>Site internet</li>
                             <li>Communication sur les réseaux sociaux</li>

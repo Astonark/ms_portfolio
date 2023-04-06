@@ -13,7 +13,7 @@ export default function AboutPage() {
             <img src="/profile_picture.png" alt="Photo de profil" class="hidden" />
             <span class="md:ml-20">
               <h2 class="font-medium text-3xl">Maëlly Sorel</h2>
-              <h3 class="text-2xl mb-6">Designeuse Graphisqte</h3>
+              <h3 class="text-2xl mb-6">Designeuse Graphiste</h3>
               <p class="text-xl">
                   <img src="images/icons/black_mail.png" alt="mail icon" class="inline mr-2" />
                   <a href="mailto:rackel.sorel0613@gmail.cocm">rackel.sorel0613@gmail.com</a>
