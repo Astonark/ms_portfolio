@@ -5,7 +5,8 @@ export default function About() {
     return (
         <div>
             <Navbar></Navbar>
-           <img class="m-auto" src="images/resume.png" alt="" />
+           <img class="m-auto md:hidden" src="images/resume.png" alt="mon cv" />
+           <img class="m-auto hidden md:block" src="images/resume_desktop.png" alt="mon cv" />
            <Footer></Footer>
         </div>
     );
