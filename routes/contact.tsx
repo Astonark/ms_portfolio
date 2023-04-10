@@ -8,17 +8,17 @@ export default function AboutPage() {
       <>
         <Navbar></Navbar>
         <main class="mt-20 md:my-20">
-          <h1 class="text-5xl md:text-9xl font-bold text-center">Me <br/> contacter</h1>
-          <div class="flex flex-col justify-center items-center mt-12 md:mt-40">
-            <img src="/profile_picture.png" alt="Photo de profil" class="hidden" />
-            <span class="md:ml-20">
-              <h2 class="font-medium text-3xl">Maëlly Sorel</h2>
-              <h3 class="text-2xl mb-6">Designeuse Graphiste</h3>
+          <h1 class="text-5xl md:text-9xl font-bold text-center font-['Lexend']">Me <br/> contacter</h1>
+          <div class="flex flex-col md:flex-row justify-center items-center mt-12 md:mt-40">
+            <img src="/profile_picture.png" alt="Photo de profil" class="hidden md:block" />
+            <span class="ml-20">
+              <h2 class="font-medium text-3xl md:text-5xl font-['Lexend']">Maëlly Sorel</h2>
+              <h3 class="text-2xl mb-6 font-['Lexend']">Designeuse Graphiste</h3>
               <p class="text-xl">
                   <img src="images/icons/black_mail.png" alt="mail icon" class="inline mr-2" />
-                  <a href="mailto:rackel.sorel0613@gmail.cocm">rackel.sorel0613@gmail.com</a>
+                  <a href="mailto:rackel.sorel0613@gmail.cocm" class="font-['Lexend']">rackel.sorel0613@gmail.com</a>
               </p>
-              <p class="text-xl">
+              <p class="text-xl font-['Lexend']">
                   <img src="images/icons/black_phone.png" alt="telephone icon" class="inline mr-2" />
                   06 18 77 64 19
               </p>
