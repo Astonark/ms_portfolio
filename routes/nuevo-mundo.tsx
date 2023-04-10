@@ -14,8 +14,8 @@ export default function NuevoMundo() {
                 <img src="/images/projects/nuevo_mundo/logo.png" alt="" class=""/>
                 <div class="text-center">
                     <span class="text-left inline-block mx-6 md:w-1/3">
-                        <h2 class="mt-6 text-xl mx-6 md:text-5xl mb-3 md:mb-6">Création de la DA de la nouvelle édition du Festival Tomorrowland : </h2>
-                        <ul class="text-s mx-6 list-disc list-inside mb-6">
+                        <h2 class="mt-6 text-xl mx-6 md:text-5xl mb-3 md:mb-6 font-['Lexend']">Création de la DA de la nouvelle édition du Festival Tomorrowland : </h2>
+                        <ul class="text-s mx-6 list-disc list-inside mb-6 font-['Lexend']">
                             <li>Choix de Direction Artistique</li>
                             <li>Création d'une affiche 4/3</li>
                             <li>Affiche Poster</li>
@@ -30,19 +30,19 @@ export default function NuevoMundo() {
                     </span>
                 </div>
 
-            <div class="mx-3">
+            <div class="mx-3 md:mx-20">
                 <img src="/images/projects/nuevo_mundo/poster.jpg" alt=""/>
                 <img src="/images/projects/nuevo_mundo/vinyle.jpg" alt="" class="my-3"/>
                 <img src="/images/projects/nuevo_mundo/banner.jpg" alt="" class="my-3"/>
             </div>
                 <div class="text-center">
-                    <p class="text-left inline-block mx-12 md:text-2xl my-6">
+                    <p class="text-left inline-block mx-12 md:text-2xl my-6 font-['Lexend']">
                         La direction artistique plongera les spectateurs dans un monde irréel, à échelle démesurée pour vivre une expérience immersive. <br/>
                         Ils seront entourés d'animaux volants, imaginaires et surnaturelles. <br/>
                         De plus, le concept tourne de l'oeuf de Dali présent dans ses oeuvres et sur le toit de son musée en Espagne
                     </p>
                 </div>
-            <div class="mx-3">
+            <div class="mx-3 md:mx-20">
                 <img src="/images/projects/nuevo_mundo/music_box.jpg" alt=""/>
                 <img src="/images/projects/nuevo_mundo/half_open_box.png" alt="" class="my-3"/>
 
