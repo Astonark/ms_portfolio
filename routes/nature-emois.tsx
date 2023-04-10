@@ -16,7 +16,7 @@ export default function NatureEmois() {
                 <img src="/images/projects/nature_emois/window.png" alt="" class="md:hidden"/>
                 <div class="text-center md:flex md:justify-center md:mt-12">
                     <img src="/images/projects/nature_emois/window_desktop.png" alt="" class="hidden md:block w-1/5"/>
-                    <span class="text-left inline-block w-2/3 md:w-1/3 mx-10 mt-60">
+                    <span class="text-left inline-block w-2/3 md:w-1/3 mx-10 md:mt-60">
                         <h2 class="mt-3 text-xl md:text-5xl mb-3 md:mb-6 font-['Lexend']">Rebranding de l'indentité visuel de l'entreprise Natur'Emois : </h2>
                         <ul class="list-disc list-inside mb-6 font-['Lexend']">
                             <li>Logotype</li>
@@ -26,10 +26,10 @@ export default function NatureEmois() {
                     </span>
                 </div>
 
-                <img src="/images/projects/nature_emois/offer.png" alt="" class="md:w-5/12 md:mt-20"/>
-                <img src="/images/projects/nature_emois/desktop.png" alt="" class="md:w-5/12 my-3 md:my-20"/>
-                <img src="/images/projects/nature_emois/products.png" alt="" class="md:w-5/12 my-3" />
-                <img src="/images/projects/nature_emois/logo.png" alt="" class="md:w-5/12"/>
+                <img src="/images/projects/nature_emois/offer.png" alt="" class="w-5/12 md:mt-20"/>
+                <img src="/images/projects/nature_emois/desktop.png" alt="" class="w-5/12 my-3 md:my-20"/>
+                <img src="/images/projects/nature_emois/products.png" alt="" class="w-5/12 my-3" />
+                <img src="/images/projects/nature_emois/logo.png" alt="" class="w-5/12"/>
             </main>
             <Footer></Footer>
         </>
