@@ -30,7 +30,7 @@ export default function Nebula() {
                     </span>
                 </div>
 
-                <div class="mx-3">
+                <div class="mx-3 md:mx-20">
                     <img src="/images/projects/nebula/illustration.jpg" alt=""/>
                     <img src="/images/projects/nebula/vinyle.jpg" alt="" class="my-3"/>
                     <div class="grid grid-cols-2 grid-rows-1 my-3">
