@@ -80,18 +80,18 @@ export default function Home() {
                     height="auto"
                 />
                 <span class="text-center md:text-left md:w-1/3">
-                    <h2 class="font-semi-bold text-sm mt-3 md:text-6xl mb-3 md:mb-6 font-['Lexend']">
+                    <h2 class="font-semi-bold text-xl mt-3 md:text-6xl mb-3 md:mb-6 font-['Lexend']">
                         À propos de moi
                     </h2>
                     <p class="text-sm mx-6 md:text-2xl mb-6 font-['Lexend'] md:mx-0">
-                        Salut et bienvenue sur mon site &nbsp;! <br />
+                        Salut et bienvenue sur mon site &nbsp;!
                         Moi c'est Maëlly et je suis une jeune designeuse
-                        graphique encore en formation. <br />
+                        graphique encore en formation.
                         Je suis également auto entrepreneuse depuis peu
-                        spécialiser dans l'UX/UI et le branding. <br />
+                        spécialiser dans l'UX/UI et le branding. <br/>
                         Vous retrouverez ici ce dont je suis capable, ce que
-                        j'ai à vous proposer et ce que j'ai déjà pu réaliser.{" "}
-                        <br />A plus tard&nbsp;!!
+                        j'ai à vous proposer et ce que j'ai déjà pu réaliser.
+                        A plus tard&nbsp;!!
                     </p>
                     <Button>
                         <a href="/about">En savoir plus</a>
