@@ -83,7 +83,7 @@ export default function Home() {
                     <h2 class="font-semi-bold text-sm mt-3 md:text-6xl mb-3 md:mb-6 font-['Lexend']">
                         À propos de moi
                     </h2>
-                    <p class="text-xs mx-6 md:text-2xl mb-6 font-['Lexend'] md:mx-0">
+                    <p class="text-sm mx-6 md:text-2xl mb-6 font-['Lexend'] md:mx-0">
                         Salut et bienvenue sur mon site &nbsp;! <br />
                         Moi c'est Maëlly et je suis une jeune designeuse
                         graphique encore en formation. <br />
