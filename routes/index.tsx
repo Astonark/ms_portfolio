@@ -12,7 +12,7 @@ export default function Home() {
             <header>
                 <Navbar></Navbar>
                 <div class="flex items-center md:justify-center md:flex-row">
-                    <div class="pt-20 mx-6">
+                    <div class="pt-20 mx-14">
                         <h1 class="text-5xl md:text-9xl font-bold font-['Lexend']">
                             Maëlly <br /> Sorel
                         </h1>
@@ -20,7 +20,7 @@ export default function Home() {
                             Designeuse graphique
                         </h2>
                         <Button>
-                            <a href="/#reals">Mes réalisations</a>
+                            <a href="/#reals" class="text-base">Mes réalisations</a>
                         </Button>
                         <ul class="flex mt-3">
                             <li>
@@ -28,8 +28,8 @@ export default function Home() {
                                     <img
                                         src="images/icons/behance.svg"
                                         alt="Behance"
-                                        width="35 md:48"
-                                        height="35 md:48"
+                                        width="20 md:48"
+                                        height="20 md:48"
                                         class="mr-5"
                                     />
                                 </a>
@@ -39,8 +39,8 @@ export default function Home() {
                                     <img
                                         src="images/icons/linkedin.svg"
                                         alt="LinkedIn"
-                                        width="35 md:48"
-                                        height="35 md:48"
+                                        width="20 md:48"
+                                        height="20 md:48"
                                         class="mr-5"
                                     />
                                 </a>
@@ -50,8 +50,8 @@ export default function Home() {
                                     <img
                                         src="images/icons/instagram.svg"
                                         alt="Instagram"
-                                        width="35 md:48"
-                                        height="35 md:48"
+                                        width="20 md:48"
+                                        height="20 md:48"
                                     />
                                 </a>
                             </li>
