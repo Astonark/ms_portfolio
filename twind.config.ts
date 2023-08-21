@@ -5,7 +5,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'dark-green': '#26462F',
+        green: {
+          950: '#26462F',
+        }
       },
     }
   }
