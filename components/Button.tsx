@@ -6,8 +6,8 @@ export function Button(props: JSX.HTMLAttributes<HTMLButtonElement>) {
     <button
       {...props}
       disabled={!IS_BROWSER || props.disabled}
-      class="px-2 py-1 rounded-full px-5 font-medium text-xs md:text-2xl font-['Lexend']"
-      style="background-color: #ACBCB1; color: #4F7158"
+      class="px-2 py-1 rounded-full px-5 font-bold text-base md:text-2xl font-['Lexend'] text-dark-green"
+      style="background-color: #ACBCB1;"
     />
   );
 }
