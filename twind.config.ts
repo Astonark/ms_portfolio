@@ -7,6 +7,7 @@ export default {
       colors: {
         green: {
           950: '#26462F',
+          1000: '#4F7158',
         }
       },
     }
