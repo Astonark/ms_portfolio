@@ -65,7 +65,7 @@ export default function SalsaLoca() {
                     <img src="/images/projects/salsa_loca/website.png" alt="" class="hidden lg:block lg:scale-125 lg:mt-80 lg:-mx-44"/>
                 </div>
 
-                <div class="lg:relative lg:w-3/6 lg:-mt-44 lg:-ml-24">
+                <div class="lg:relative lg:w-5/12 lg:-mt-44 lg:-ml-64">
                     <h2 class="my-3 m-auto lg:m-0 w-9/12 text-xl lg:text-5xl font-['Lexend']">Création d'une dark kitchen à implanté dans le centre de Nantes&nbsp;: </h2>
                     <ul class="m-auto lg:m-0 mt-6 list-disc w-8/12 list-inside mb-6 font-['Lexend'] lg:text-2xl lg:mt-6">
                         <li>Processus de design thiking</li>
