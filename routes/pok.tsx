@@ -13,8 +13,7 @@ export default function Pok() {
             <main class="flex flex-col justify-center items-center mt-12 md:mt-32">
                 <img src="/images/projects/pok/logo.png" alt="" class=""/>
                 <div class="flex mt-12">
-                    <img src="/images/projects/pok/pok.png" alt="" class="md:hidden"/>
-                    <img src="/images/projects/pok/qr.png" alt="" class="md:hidden" />
+                    <img src="/images/projects/pok/banner_mobile.png" alt="" class="scale-125 mb-6 md:hidden"/>
                     <img src="/images/projects/pok/group.png" class="hidden md:block" />
                 </div>
                 <div class="text-center text-left">
@@ -31,7 +30,7 @@ export default function Pok() {
                 </div>
 
                 <img src="/images/projects/pok/poster.png" alt="" class="md:hidden"/>
-                <img src="/images/projects/pok/banner.png" alt="" class="my-3 md:hidden"/>
+                <img src="/images/projects/pok/banner.png" alt="" class="py-12 md:hidden"/>
                 <img src="/images/projects/pok/contact.png" alt="" class="md:hidden"/>
                 <img src="/images/projects/pok/pages.png" alt="" class="hidden md:block"/>
             </main>
