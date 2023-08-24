@@ -10,12 +10,14 @@ export default function OnFleek() {
                 <Navbar></Navbar>
             </header>
 
-            <main class="flex flex-col md:flew-row justify-center items-center mt-12 md:mt-32">
-                <img src="/images/projects/on_fleek/logo.svg" alt="" class="w-2/12"/>
-                <div class="text-center md:flex md:justify-center md:mt-20">
-                    <img src="/images/projects/on_fleek/banner.png" alt="" class="hidden md:block"/>
-                    <span class="text-left inline-block mx-6 md:w-1/3">
-                        <h2 class="mt-6 text-xl mx-6 md:text-5xl mb-3 md:mb-6 font-['Lexend']">Création d'un festival Afro-Américain&nbsp;: </h2>
+            <main class="flex flex-col items-center mt-12 md:mt-32">
+                <img src="/images/projects/on_fleek/logo.png" alt="" class="lg:hidden"/>
+                <div class="text-center lg:flex lg:justify-evenly items-center m-auto lg:flex-wrap">
+                    <img src="/images/projects/on_fleek/logo_desktop.png" alt="" class="lg:block hidden"/>
+                    <img src="/images/projects/on_fleek/banner_desktop.png" alt="" class="hidden lg:block"/>
+
+                    <span class="text-left inline-block mx-12 lg:block lg:w-full lg:ml-56">
+                        <h2 class="mt-6 text-xl mx-6 lg:text-5xl mb-3 lg:w-1/3 lg:mb-6 font-['Lexend']">Création d'un festival Afro-Américain&nbsp;: </h2>
                         <ul class="text-s mx-6 list-disc list-inside mb-6 font-['Lexend']">
                             <li>Idéation</li>
                             <li>Création du logo ainsi que de la chartre graphique</li>
@@ -26,9 +28,9 @@ export default function OnFleek() {
                     </span>
                 </div>
 
-                <img src="/images/projects/on_fleek/banner.png" alt="" class="md:hidden"/>
-                <img src="/images/projects/on_fleek/website.png" alt="" class="md:hidden"/>
-                <img src="/images/projects/on_fleek/group.png" alt="" class="hidden md:block w-7/12 relative -right-[370px]"/>
+                <img src="/images/projects/on_fleek/banner.png" alt="" class="lg:hidden"/>
+                <img src="/images/projects/on_fleek/group.png" alt="" class="pl-6 relative lg:hidden"/>
+                <img src="/images/projects/on_fleek/group_desktop.png" alt="" class="hidden lg:block lg:-mt-12"/>
             </main>
             <Footer></Footer>
         </>

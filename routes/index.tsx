@@ -16,11 +16,11 @@ export default function Home() {
                         <h1 class="text-5xl md:text-9xl font-bold font-['Lexend']">
                             Maëlly <br /> Sorel
                         </h1>
-                        <h2 class="text-lg mb-3 font-['Lexend']">
+                        <h2 class="text-xl mb-3 font-['Lexend']">
                             Designeuse graphique
                         </h2>
                         <Button>
-                            <a href="/#reals" class="text-base">Mes réalisations</a>
+                            <a href="/#reals" class="text-xl">Mes réalisations</a>
                         </Button>
                         <ul class="flex mt-3">
                             <li>
@@ -28,8 +28,8 @@ export default function Home() {
                                     <img
                                         src="images/icons/behance.svg"
                                         alt="Behance"
-                                        width="20 md:48"
-                                        height="20 md:48"
+                                        width="28 md:48"
+                                        height="28 md:48"
                                         class="mr-5"
                                     />
                                 </a>
@@ -39,8 +39,8 @@ export default function Home() {
                                     <img
                                         src="images/icons/linkedin.svg"
                                         alt="LinkedIn"
-                                        width="20 md:48"
-                                        height="20 md:48"
+                                        width="28 md:48"
+                                        height="28 md:48"
                                         class="mr-5"
                                     />
                                 </a>
@@ -50,8 +50,8 @@ export default function Home() {
                                     <img
                                         src="images/icons/instagram.svg"
                                         alt="Instagram"
-                                        width="20 md:48"
-                                        height="20 md:48"
+                                        width="28 md:48"
+                                        height="28 md:48"
                                     />
                                 </a>
                             </li>
@@ -65,56 +65,52 @@ export default function Home() {
                 </div>
             </header>
 
-            <main class="flex flex-col justify-center items-center mt-12 md:flex-row">
+            <main class="flex flex-col justify-center items-center md:flex-row">
                 <img
-                    src="/profil2.png"
+                    src="images/profil_drawing.png"
                     alt="Photo de profil"
-                    class="md:mr-20 md:hidden"
-                    width="250"
-                    height="auto"
-                />
-                <img
-                    src="/profil2.png"
-                    alt="Photo de profil"
-                    class="md:mr-20 hidden md:block"
+                    class="md:mr-20 md:block w-60 md:w-auto"
                     height="auto"
                 />
                 <span class="text-center md:text-left md:w-1/3">
-                    <h2 class="font-semi-bold text-xl mt-3 md:text-6xl mb-3 md:mb-6 font-['Lexend']">
+                    <h2 class="font-semibold text-xl mt-3 md:text-6xl mb-3 md:mb-6 font-['Lexend']">
                         À propos de moi
                     </h2>
-                    <p class="text-sm mx-6 md:text-2xl mb-6 font-['Lexend'] md:mx-0">
+                    <p class="mx-10 md:text-2xl mb-6 font-['Lexend'] md:mx-0">
                         Salut et bienvenue sur mon site &nbsp;!
                         Moi c'est Maëlly et je suis une jeune designeuse
                         graphique encore en formation.
                         Je suis également auto entrepreneuse depuis peu
                         spécialiser dans l'UX/UI et le branding. <br/>
                         Vous retrouverez ici ce dont je suis capable, ce que
-                        j'ai à vous proposer et ce que j'ai déjà pu réaliser.
+                        j'ai à vous proposer et ce que j'ai déjà pu réaliser. <br/>
                         A plus tard&nbsp;!!
                     </p>
                     <Button>
-                        <a href="/about">En savoir plus</a>
+                        <a href="/about" class="text-xl">Mon CV</a>
                     </Button>
                 </span>
             </main>
 
             <section class="mt-20 md:mt-40">
                 <h2
-                    class="text-center text-4xl font-semibold mb-6 font-['Lexend']"
+                    class="text-center text-xl font-semibold mb-6 font-['Lexend']"
                     id="reals"
                 >
                     Mes réalisations
                 </h2>
+
                 <div class="grid gap-4 grid-cols-2 grid-rows-4 mx-6 md:grid-cols-3 md:mx-60 mt-20">
+
                     <div>
-                        <a href="/salsa-loca">
-                            <img
-                                src="images/projects/salsa_loca.png"
-                                alt="Salsa Loca"
-                            />
+                        <a class="w-28 h-24 bg-green-950 hover:bg-white hover:border rounded-xl inline-block" href="/salsa-loca">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <image href="images/projects/salsa_loca/icon_white.png" x="0" y="0" height="100" width="100" />
+                                <image href="images/projects/salsa_loca/icon.png" x="0" y="0" height="100" width="100" />
+                            </svg>
                         </a>
                     </div>
+
                     <div>
                         <a href="/on-fleek">
                             <img src="images/projects/on_fleek.png" alt="" />
