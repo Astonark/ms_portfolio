@@ -33,7 +33,7 @@ export default function Neopace() {
                 <img src="/images/projects/neopace/mobile.png" alt="" class="relative pl-20 lg:hidden"/>
 
                 <div>
-                    <img src="/images/projects/neopace/group_desktop.png" alt="images des interfaces de l'application" />
+                    <img src="/images/projects/neopace/group_desktop.png" alt="images des interfaces de l'application" class="hidden lg:block"/>
                 </div>
             </main>
             <Footer></Footer>
