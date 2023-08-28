@@ -21,7 +21,7 @@ export function Navbar() {
           </li>
           <span class="flex items-center">
             <li class="font-medium text-s md:text-3xl">
-              <a href="/about">À propos de moi</a>
+              <a href="/#about-me">À propos de moi</a>
             </li>
             <li class="font-medium text-s ml-3 md:text-3xl md:ml-20">
               <a href="/#reals">Réalisations</a>

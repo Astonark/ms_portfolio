@@ -73,7 +73,7 @@ export default function Home() {
                     height="auto"
                 />
                 <span class="text-center md:text-left md:w-1/3">
-                    <h2 class="font-semibold text-xl mt-3 md:text-6xl mb-3 md:mb-6 font-['Lexend']">
+                    <h2 id="about-me" class="font-semibold text-xl mt-3 md:text-6xl mb-3 md:mb-6 font-['Lexend']">
                         À propos de moi
                     </h2>
                     <p class="mx-10 md:text-2xl mb-6 font-['Lexend'] md:mx-0">

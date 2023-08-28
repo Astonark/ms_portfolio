@@ -10,26 +10,31 @@ export default function Neopace() {
                 <Navbar></Navbar>
             </header>
 
-            <main class="flex flex-col justify-center items-center mt-12 md:mt-32 md:overflow-x-hidden">
-                <img src="/images/projects/neopace/logo.png" alt="" class=""/>
-                <div class="text-center">
-                    <span class="text-left inline-block mx-6 md:w-1/3">
-                        <h2 class="mt-6 text-xl mx-6 md:text-5xl mb-3 md:mb-6 font-['Lexend']">Rebranding d'un Label de musique dans l'Électro Chill : </h2>
-                        <ul class="text-s mx-6 list-disc list-inside mb-6 font-['Lexend']">
-                            <li>Logotype</li>
-                            <li>Création de la direction artistique</li>
-                            <li>Site internet</li>
-                            <li>Déclinaisons sur les réseaux sociaux</li>
-                        </ul>
-                    </span>
+            <main class="flex flex-col lg:flex-row items-center lg:items-start mt-12">
+                <div class="flex flex-col items-center">
+                    <img src="/images/projects/neopace/logo.png" alt="" class="scale-50 lg:-mt-36"/>
+                    <div class="text-center">
+                        <span class="text-left inline-block mx-6 lg:w-3/4 lg:ml-36">
+                            <h2 class="mt-6 lg:mt-0 text-xl mx-6 lg:mx-0 lg:text-5xl mb-3 lg:mb-6 font-['Lexend']">Rebranding d'un Label de musique dans l'Électro Chill : </h2>
+                            <ul class="mx-6 list-disc mx-6 lg:mx-0 lg:text-2xl list-inside mb-6 font-['Lexend']">
+                                <li>Logotype</li>
+                                <li>Création de la direction artistique</li>
+                                <li>Site internet</li>
+                                <li>Déclinaisons sur les réseaux sociaux</li>
+                            </ul>
+                        </span>
+                    </div>
                 </div>
 
-                <div class="flex flex-col w-2/3 md:hidden">
+                <div class="flex flex-col w-2/3 lg:hidden">
                     <img src="/images/projects/neopace/screens.png" alt="" />
                     <img src="/images/projects/neopace/devices.png" alt="" class="my-3"/>
-                    <img src="/images/projects/neopace/mobile.png" alt="" class=""/>
                 </div>
-                <img src="/images/projects/neopace/group.png" alt="" width="70%" class="relative hidden md:block -right-72 top-0"/>
+                <img src="/images/projects/neopace/mobile.png" alt="" class="relative pl-20 lg:hidden"/>
+
+                <div>
+                    <img src="/images/projects/neopace/group_desktop.png" alt="images des interfaces de l'application" />
+                </div>
             </main>
             <Footer></Footer>
         </>
