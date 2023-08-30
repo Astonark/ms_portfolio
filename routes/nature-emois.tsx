@@ -56,7 +56,7 @@ export default function NatureEmois() {
                     <h2>L'environnement de travail</h2>
                     <h3>Le stage à été réalisé en télétravail, voici comment je m'y suis pris : </h3>
                     <h2>1 Communication avec Sandra</h2>
-                    <p>Sandra n'ayant pas de locaux pour son entreprise, nous avons dus faire du télétravail.
+                    <p class="text-xs">Sandra n'ayant pas de locaux pour son entreprise, nous avons dus faire du télétravail.
                         La communication avec le client étant un point primordiale dans ce type de projet, nous avons décidé de programmer des réunions par visioconférence de façon régulière pour suivre l'avancement du projet et pour que Sandra puisse nous transmettre son avis ainsi que nous reposionner sur la bonne voie si jamais notre direction ne corraispondait pas totalement avec ses attententes. <br/>
                         Nous lui avons également envoyé de nombreux mails comportant les diverses visuels des avancés de notre travail de façon à avoir un retour de sa part rapide, sans avoir à recourir à un appel vidéo. <br/>
                         De cette manière, m$eme en étant à des différents nous avons pu mener à bien ce projet sans complications.
