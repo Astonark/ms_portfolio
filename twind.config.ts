@@ -13,6 +13,11 @@ export default {
           950: "#91503A"
         },
       },
-    }
+    },
+    fontFamily: {
+      sans: [
+        "Lexend",
+      ]
+    },
   }
 } as Options;

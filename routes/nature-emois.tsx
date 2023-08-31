@@ -19,84 +19,96 @@ export default function NatureEmois() {
                    <li>Site internet</li>
                 </ul>
 
-                <div class="grid gap-4 grid-cols-3 grid-rows-3 mx-6 mt-12 ">
+                <div class="grid gap-4 grid-cols-3 grid-rows-3 mx-6 mt-12 text-center text-white">
                     <div class="bg-brown-950 rounded-md py-3 shadow-2xl">
-                        <p class="text-white text-center">Natur'Emois qu'est ce que c'est&nbsp;?</p>
+                        <p class="">Natur'Emois qu'est ce que c'est&nbsp;?</p>
                     </div>
                     <div class="bg-brown-950 rounded-md py-3 shadow-2xl">
-                        <p class="text-white text-center">L'environnement de travail</p>
+                        <p class="">L'environnement de travail</p>
                     </div>
                     <div class="bg-brown-950 rounded-md py-3 shadow-2xl">
-                        <p class="text-white text-center">Les difficultés rencontrées</p>
+                        <span class="">Les difficultés rencontrées</span>
                     </div>
                     <div class="bg-brown-950 rounded-md py-3 shadow-2xl">
-                        <p class="text-white text-center">Les missions</p>
+                        <p class="">Les missions</p>
                     </div>
                     <div class="bg-brown-950 rounded-md py-3 shadow-2xl">
-                        <p class="text-white text-center">Les connaissances mobilisées</p>
+                        <p class="">Les connaissances mobilisées</p>
                     </div>
                     <div class="bg-brown-950 rounded-md py-3 shadow-2xl">
-                        <p class="text-white text-center">Les compétences acquises</p>
+                        <p class="">Les compétences acquises</p>
                     </div>
-                    <p class="bg-brown-950 text-white text-center">Bilan du stage</p>
+                    <p class="bg-brown-950 col-span-3 h-8">Bilan du stage</p>
                 </div>
 
-                <h2 class="mx-12 text-2xl mt-12 font-semibold text-green-950 font-['Lexend']">Natur'Emois qu'est-ce que c'est&nbsp;?</h2>
-                <p class="mx-12 text-lg font-medium font-['Lexend']">Découvrez en quelques lignes l'entreprise Natur'Emois, ses services et surtout Sandra JEANNEAU&nbsp;!</p>
-                <p class="mx-12">
-                    <strong>Sandra</strong>, préparatrice en pharmacie de formation est quelqu'un de passioné et formée dans le domaine de la médecine naturelle (phytothérapie, micronutrition...) <br/>
+                <h2 class="mx-12 text-2xl mt-12 font-semibold text-green-950 font-['Lexend'] text-center">Natur'Emois qu'est-ce <br/> que c'est&nbsp;?</h2>
+                <p class="mx-12 mt-6 text-lg font-medium font-['Lexend']">Découvrez en quelques lignes l'entreprise Natur'Emois, ses services et surtout Sandra JEANNEAU&nbsp;!</p>
+                <p class="mx-12 mt-6 font-['Lexend']">
+                    <strong>Sandra</strong>, préparatrice en pharmacie de formation est quelqu'un de passionée et formée dans le domaine de la médecine naturelle (phytothérapie, micronutrition...). <br/>
                     C'est quelqu'un qui à le souhait d'accompagnée l'individu dans sa globalité (holistique, relation corps/esprit), 
-                    selon le besoin de chacuns aux cours de leur vie (environnemnt professionnel, social, personnel, état émotionnel ou mental). <br/>
-                    Ellle s'éforce de savoir "comment accompagner la personne aux mieux être" et "pourquoi la maladie". Le cheminement vers la naturopathie.a <br/>
+                    selon le besoin de chacun aux cours de leur vie (environnemnt professionnel, social, personnel, état émotionnel ou mental). <br/>
+                    Ellle s'éforce de savoir "comment accompagner la personne aux mieux être" et "pourquoi la maladie". Le cheminement vers la naturopathie. <br/>
                     <strong>Natur'Emois</strong> est le fruit de son travail. Elle a crée cette entreprise dans le but de pouvoir mettre ses compétences au service des autres.
                 </p>
-                <img src="/images/projects/nature_emois/carte_pictogrammes.png" alt="" />
+                <img src="/images/projects/nature_emois/carte_pictogrammes.png" alt="Images illustrants Natur'Emois" class="mt-6" />
 
-                <section>
-                    <h2>L'environnement de travail</h2>
-                    <h3>Le stage à été réalisé en télétravail, voici comment je m'y suis pris : </h3>
-                    <h2>1 Communication avec Sandra</h2>
-                    <p class="text-xs">Sandra n'ayant pas de locaux pour son entreprise, nous avons dus faire du télétravail.
+                <section class="mx-12">
+                    <h2 class="text-2xl mt-12 font-semibold text-green-950 text-center">L'environnement de travail</h2>
+                    <p class="mt-6 text-xl font-medium leading-9">Le stage à été réalisé en télétravail, voici comment je m'y suis pris : </p>
+                    <h3 class="font-bold text-xl text-green-950 mt-6">1 Communication avec Sandra</h3>
+                    <p class="leading-7">Sandra n'ayant pas de locaux pour son entreprise, nous avons dus faire du télétravail.
                         La communication avec le client étant un point primordiale dans ce type de projet, nous avons décidé de programmer des réunions par visioconférence de façon régulière pour suivre l'avancement du projet et pour que Sandra puisse nous transmettre son avis ainsi que nous reposionner sur la bonne voie si jamais notre direction ne corraispondait pas totalement avec ses attententes. <br/>
                         Nous lui avons également envoyé de nombreux mails comportant les diverses visuels des avancés de notre travail de façon à avoir un retour de sa part rapide, sans avoir à recourir à un appel vidéo. <br/>
                         De cette manière, m$eme en étant à des différents nous avons pu mener à bien ce projet sans complications.
                     </p>
                 </section>
-                <div class="flex">
-                    <img src="/images/projects/nature_emois/review_exemple_1.png" alt="" />
-                    <img src="/images/projects/nature_emois/review_exemple_2.png" alt="" />
+                <div class="flex max-w-full mx-6 my-12">
+                    <img class="w-3/6 h-auto" src="/images/projects/nature_emois/review_exemple_1.png" alt="" />
+                    <img class="w-3/6 h-auto" src="/images/projects/nature_emois/review_exemple_2.png" alt="" />
                 </div>
 
-                <section>
-                    <h2>Communication avec mon binôme</h2>
-                    <p>Un travail en binôme nécessaire une bonne organisation pour qu'il soit bien réaliser. Nous devions trouver un moyen de communiquer efficacement pour pouvoir accomplir le travail à faire d'autant plus que nous étions en télétravail.</p>
-                    <p>Pour nous assurer que chauqe tache sois bien réalisé et pour ne pas nous marcher lsur les pied, nous avons, à l'aide de Figma, crée des listes de taches à faire et nous nous les sommes répartis de manière équitable et en fonction de nos compétences respective. <br/>
-                    De cette façon, nous avons pus avancer de manière autonome. Nous marquions sur le tableau commun l'avancement de nos taches et réfléchissions à comment elles pouvaient être amélioré ou modifier à la fin de la réalisation de chacune d'entre elles.
+                <section class="mx-12">
+                    <h3 class="font-bold text-xl text-green-950 mt-6">2 Communication avec mon binôme</h3>
+                    <p class="leading-7">
+                        Un travail en binôme nécessite une bonne organisation pour qu'il soit bien réalisé. 
+                        Nous devions trouver un moyen de communiquer efficacement pour pouvoir accomplir le travail à faire, d'autant plus que nous étions en télétravail.
+                    </p>
+                    <p>
+                        Pour nous assurer que chauqe tache sois bien réalisé et pour ne pas nous marcher sur les pied, nous avons, 
+                        à l'aide de Figma, crée des listes de taches à faire et nous nous les sommes répartis de manière équitable en fonction de nos compétences respective. <br/>
+                        De cette façon, nous avons pus avancer de manière autonome. 
+                        Nous marquions sur le tableau commun l'avancement de nos tâches et réfléchissions à comment elles pouvaient être améliorées ou modifiées à la fin de la réalisation de chacune d'entre elles.
                     </p>
 
-                    <img src="/images/projects/nature_emois/liste_taches.png" alt="Check list des différentes tâches à effectué durant le projet"/>
+                    <img src="/images/projects/nature_emois/liste_taches.png" alt="Check list des différentes tâches à effectué durant le projet" class="my-12"/>
                 </section>
                 
-                <h3>Les difficultés rencontrées</h3>
-                <p>
-                    La plus grande difficulté de ce stage fut pour ma part de créer des illustrations parlantes et simples à partir de termes et notions complexes et avec lesquelles je n'était pas famillière.
-                </p>
-                <h3>1 L'illustration du logo</h3>
-                <p>
-                    Pour le logo, nous avions les critères suivants : <br/>
-                    - Mettre en relation le corps et l'émotion <br/>
-                    - De la rondeur mais tout en finesse <br/>
-                    - Couleurs : vert, violet --> nature, fleur de lotus <br/>
-                    - Mots clés : hauteur, calme, sérénité, prise de hauteur <br/>
-                    - Nature = lumière, image d'autonne, réconfort, appaisement, plante arromatique (formation de préparation en pharmacie) <br/>
-                    <strong>Red flag : </strong> ne pas utiliser les mots traitements et soins
-                    <img src="/images/projects/nature_emois/frise_logos.png" alt="" />
-                    <img src="/images/projects/nature_emois/frise_logos_2.png" alt="" />
-                    <p>Suite aux premiers rendez-vous, nous avons, en accord acec les directives reçus, créé un premier logo. Pour ce faire, beaucoup de recherches ont été effectués. Pas seulement au niveau visuel, mais aussi du point de vue technique.
-                    Les termes utilisés ne nous étant pas commun, nous avons du chercher la signification de certains d'entre eux pour pouvoir ensuite créer des visuels cohérents. <br/>
-                    A partir de là, nous avons créer des visuels et les avons modifé au fur et à mesure des rendez-vous pour arriver à un résultat qualitatif, et satisfaisant.
+                <section>
+                    <h2 class="mx-12 text-2xl mt-12 font-semibold text-green-950 text-center">Les difficultés rencontrées</h2>
+                    <p class="mx-12 mt-6 text-xl font-medium leading-9">
+                        La plus grande difficulté de ce stage à pour ma part été de créer des illulstrations parlantes et simple à partir de termes et de notions compliquées avec lesquelles je n'était pas famillière.
                     </p>
-                </p>
+                    <h3 class="mx-12 font-bold text-xl text-green-950 mt-6">1 L'illustration du log</h3>
+                    <p class="mx-12 leading-7">
+                        Pour le logo, nous avions les critères suivants : <br/>
+                        - Mettre en relation le corps et l'émotion <br/>
+                        - De la rondeur mais tout en finesse <br/>
+                        - Couleurs : vert, violet --> nature, fleur de lotus <br/>
+                        - Mots clés : hauteur, calme, sérénité, prise de hauteur <br/>
+                        - Nature = lumière, image d'autonne, réconfort, appaisement, plante arromatique (formation de préparation en pharmacie) <br/>
+                        <strong>Red flag : </strong> ne pas utiliser les mots traitements et soins
+                    </p>
+
+                    <div class="mx-2 my-12">
+                        <img src="/images/projects/nature_emois/frise_logos.png" alt="Évolution du logo au fil du temps" />
+                        <img src="/images/projects/nature_emois/frise_logos_2.png" alt="Évolution du logo au fil du temps" class="" />
+                    </div>
+                    <p class="mx-12 leading-7">
+                        Suite aux premiers rendez-vous, nous avons, en accord acec les directives reçus, créé un premier logo. Pour ce faire, beaucoup de recherches ont été effectués. Pas seulement au niveau visuel, mais aussi du point de vue technique.
+                        Les termes utilisés ne nous étant pas commun, nous avons du chercher la signification de certains d'entre eux pour pouvoir ensuite créer des visuels cohérents. <br/>
+                        À partir de là, nous avons créer des visuels et les avons modifé au fur et à mesure des rendez-vous pour arriver à un résultat qualitatif, et satisfaisant.
+                    </p>
+                </section>
 
                 <section>
                     <h3>2 Les pictogrammes</h3>
