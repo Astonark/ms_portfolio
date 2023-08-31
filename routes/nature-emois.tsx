@@ -11,76 +11,92 @@ export default function NatureEmois() {
             </header>
 
             <main class="flex flex-col justify-center w-full">
-                <img src="/images/projects/nature_emois/logo.png" alt="Logo Natur'Emois" class="w-3/6 h-auto m-auto mt-12"/>
-                <h1 class="color text-green-950 font-semibold text-xl font-['Lexend'] mt-6 w-3/6 m-auto">Rebranding de l'indentité visuel de l'entreprise Natur'Emois&nbsp;:</h1>
-                <ul class="list-disc list-inside m-auto w-3/6 mt-6 font-['Lexend']">
-                   <li>Logotype</li>
-                   <li>Chartre Graphique</li>
-                   <li>Site internet</li>
-                </ul>
+                <div class="lg:flex justify-center items-center">
+                    <div class="lg:order-last">
+                        <img src="/images/projects/nature_emois/logo.png" alt="Logo Natur'Emois" class="w-3/6 lg:w-full h-auto m-auto mt-12"/>
+                    </div>
+                    <div class="lg:w-3/6 lg:mt-20">
+                        <h1 class="color text-green-950 font-semibold text-xl lg:text-5xl font-['Lexend'] mt-6 w-3/6 m-auto">Rebranding de l'indentité visuel de l'entreprise Natur'Emois&nbsp;:</h1>
+                        <ul class="list-disc list-inside m-auto w-3/6 mt-6 font-['Lexend'] lg:text-xl">
+                            <li>Logotype</li>
+                            <li>Chartre Graphique</li>
+                            <li>Site internet</li>
+                        </ul>
+                    </div>
+                </div>
 
-                <div class="grid gap-3 grid-cols-3 grid-rows-3 mx-6 mt-12 text-center text-white">
-                    <div class="bg-brown-950 rounded-md p-3 shadow-2xl">
+                <div class="grid gap-3 lg:gap-4 grid-cols-3 lg:grid-cols-6 grid-rows-3 mx-6 mt-12 lg:mt-36 text-center text-white">
+                    <div class="bg-brown-950 rounded-md p-3 lg:py-10 shadow-2xl">
                         <p class="">Natur'Emois qu'est ce que c'est&nbsp;?</p>
                     </div>
-                    <div class="bg-brown-950 rounded-md p-3 shadow-2xl">
+                    <div class="bg-brown-950 rounded-md p-3 lg:py-10 shadow-2xl">
                         <p class="">L'environnement de travail</p>
                     </div>
-                    <div class="bg-brown-950 rounded-md p-3 shadow-2xl">
+                    <div class="bg-brown-950 rounded-md p-3 lg:py-10 shadow-2xl">
                         <span class="">Les difficultés rencontrées</span>
                     </div>
-                    <div class="bg-brown-950 rounded-md p-3 shadow-2xl">
+                    <div class="bg-brown-950 rounded-md p-3 lg:py-10 shadow-2xl">
                         <p class="">Les missions</p>
                     </div>
-                    <div class="bg-brown-950 rounded-md p-3 shadow-2xl">
+                    <div class="bg-brown-950 rounded-md p-3 lg:py-10 shadow-2xl">
                         <p class="">Les connaissances mobilisées</p>
                     </div>
-                    <div class="bg-brown-950 rounded-md p-3 shadow-2xl">
+                    <div class="bg-brown-950 rounded-md p-3 lg:py-10 shadow-2xl">
                         <p class="">Les compétences acquises</p>
                     </div>
-                    <p class="bg-brown-950 col-span-3 h-8 rounded-md">Bilan du stage</p>
+                    <p class="bg-brown-950 col-span-3 lg:col-span-6 h-8 lg:py-6 rounded-md">Bilan du stage</p>
                 </div>
 
-                <h2 class="mx-12 text-2xl mt-12 font-semibold text-green-950 font-['Lexend'] text-center">Natur'Emois qu'est-ce <br/> que c'est&nbsp;?</h2>
-                <p class="mx-12 mt-6 text-lg font-medium font-['Lexend']">Découvrez en quelques lignes l'entreprise Natur'Emois, ses services et surtout Sandra JEANNEAU&nbsp;!</p>
-                <p class="mx-12 mt-6 font-['Lexend']">
-                    <strong>Sandra</strong>, préparatrice en pharmacie de formation est quelqu'un de passionée et formée dans le domaine de la médecine naturelle (phytothérapie, micronutrition...). <br/>
-                    C'est quelqu'un qui à le souhait d'accompagnée l'individu dans sa globalité (holistique, relation corps/esprit), 
-                    selon le besoin de chacun aux cours de leur vie (environnemnt professionnel, social, personnel, état émotionnel ou mental). <br/>
-                    Ellle s'éforce de savoir "comment accompagner la personne aux mieux être" et "pourquoi la maladie". Le cheminement vers la naturopathie. <br/>
-                    <strong>Natur'Emois</strong> est le fruit de son travail. Elle a crée cette entreprise dans le but de pouvoir mettre ses compétences au service des autres.
-                </p>
-                <img src="/images/projects/nature_emois/carte_pictogrammes.png" alt="Images illustrants Natur'Emois" class="mt-6" />
-
-                <section class="mx-12">
-                    <h2 class="text-2xl mt-12 font-semibold text-green-950 text-center">L'environnement de travail</h2>
-                    <p class="mt-6 text-xl font-medium leading-9">Le stage à été réalisé en télétravail, voici comment je m'y suis pris : </p>
-                    <h3 class="font-bold text-xl text-green-950 mt-6">1 Communication avec Sandra</h3>
-                    <p class="leading-7">Sandra n'ayant pas de locaux pour son entreprise, nous avons dus faire du télétravail.
-                        La communication avec le client étant un point primordiale dans ce type de projet, nous avons décidé de programmer des réunions par visioconférence de façon régulière pour suivre l'avancement du projet et pour que Sandra puisse nous transmettre son avis ainsi que nous reposionner sur la bonne voie si jamais notre direction ne corraispondait pas totalement avec ses attententes. <br/>
-                        Nous lui avons également envoyé de nombreux mails comportant les diverses visuels des avancés de notre travail de façon à avoir un retour de sa part rapide, sans avoir à recourir à un appel vidéo. <br/>
-                        De cette manière, m$eme en étant à des différents nous avons pu mener à bien ce projet sans complications.
-                    </p>
-                </section>
-                <div class="flex max-w-full mx-6 my-12">
-                    <img class="w-3/6 h-auto" src="/images/projects/nature_emois/review_exemple_1.png" alt="" />
-                    <img class="w-3/6 h-auto" src="/images/projects/nature_emois/review_exemple_2.png" alt="" />
+                <div class="lg:flex lg:flex-row lg:justify-center">
+                    <div class="lg:w-2/5 lg:mx-12">
+                        <h2 class="text-2xl lg:text-4xl mt-12 lg:mt-20 font-semibold text-green-950 font-['Lexend'] text-center">Natur'Emois qu'est-ce <br/> que c'est&nbsp;?</h2>
+                        <p class="mx-12 mt-6 text-lg lg:text-xl font-medium font-['Lexend']">Découvrez en quelques lignes l'entreprise Natur'Emois, ses services et surtout Sandra JEANNEAU&nbsp;!</p>
+                        <p class="mx-12 lg:mt-20 lg:text-lg mt-6 font-['Lexend']">
+                            <strong>Sandra</strong>, préparatrice en pharmacie de formation est quelqu'un de passionée et formée dans le domaine de la médecine naturelle (phytothérapie, micronutrition...). <br/>
+                            C'est quelqu'un qui à le souhait d'accompagnée l'individu dans sa globalité (holistique, relation corps/esprit), 
+                            selon le besoin de chacun aux cours de leur vie (environnemnt professionnel, social, personnel, état émotionnel ou mental). <br/>
+                            Ellle s'éforce de savoir "comment accompagner la personne aux mieux être" et "pourquoi la maladie". Le cheminement vers la naturopathie. <br/>
+                            <strong>Natur'Emois</strong> est le fruit de son travail. Elle a crée cette entreprise dans le but de pouvoir mettre ses compétences au service des autres.
+                        </p>
+                    </div>
+                    <img src="/images/projects/nature_emois/carte_pictogrammes.png" alt="Images illustrants Natur'Emois" class="mt-6 lg:w-2/5" />
                 </div>
 
-                <section class="mx-12">
-                    <h3 class="font-bold text-xl text-green-950 mt-6">2 Communication avec mon binôme</h3>
-                    <p class="leading-7">
-                        Un travail en binôme nécessite une bonne organisation pour qu'il soit bien réalisé. 
-                        Nous devions trouver un moyen de communiquer efficacement pour pouvoir accomplir le travail à faire, d'autant plus que nous étions en télétravail.
-                    </p>
-                    <p>
-                        Pour nous assurer que chauqe tache sois bien réalisé et pour ne pas nous marcher sur les pied, nous avons, 
-                        à l'aide de Figma, crée des listes de taches à faire et nous nous les sommes répartis de manière équitable en fonction de nos compétences respective. <br/>
-                        De cette façon, nous avons pus avancer de manière autonome. 
-                        Nous marquions sur le tableau commun l'avancement de nos tâches et réfléchissions à comment elles pouvaient être améliorées ou modifiées à la fin de la réalisation de chacune d'entre elles.
-                    </p>
+                <div class="lg:flex lg:justify-center">
+                    <section class="mx-12 lg:mx-0 lg:order-last lg:w-2/5">
+                        <h2 class="text-2xl lg:text-4xl mt-12 font-semibold text-green-950 text-center">L'environnement de travail</h2>
+                        <p class="mt-6 text-xl lg:text-2xl font-medium leading-9">Le stage à été réalisé en télétravail, voici comment je m'y suis pris : </p>
+                        <h3 class="font-bold text-xl lg:text-2xl text-green-950 mt-6">1 Communication avec Sandra</h3>
+                        <p class="leading-7 lg:text-lg">Sandra n'ayant pas de locaux pour son entreprise, nous avons dus faire du télétravail.
+                            La communication avec le client étant un point primordiale dans ce type de projet, nous avons décidé de programmer des réunions par visioconférence de façon régulière pour suivre l'avancement du projet et pour que Sandra puisse nous transmettre son avis ainsi que nous reposionner sur la bonne voie si jamais notre direction ne corraispondait pas totalement avec ses attententes. <br/>
+                            Nous lui avons également envoyé de nombreux mails comportant les diverses visuels des avancés de notre travail de façon à avoir un retour de sa part rapide, sans avoir à recourir à un appel vidéo. <br/>
+                            De cette manière, m$eme en étant à des différents nous avons pu mener à bien ce projet sans complications.
+                        </p>
+                    </section>
+                    <div class="flex lg:flex-col max-w-full lg:w-2/5 mx-6 lg:mx-0 my-12">
+                        <img class="w-3/6 lg:w-8/12 h-auto" src="/images/projects/nature_emois/review_exemple_1.png" alt="" />
+                        <img class="w-3/6 lg:w-8/12 lg:m-20 h-auto" src="/images/projects/nature_emois/review_exemple_2.png" alt="" />
+                    </div>
+                </div>
 
-                    <img src="/images/projects/nature_emois/liste_taches.png" alt="Check list des différentes tâches à effectué durant le projet" class="my-12"/>
+                <section class="lg:flex lg:items-center lg:justify-center mx-12 lg:mx-0">
+                    <div class="lg:w-2/5">
+                        <h3 class="font-bold text-xl lg:text-2xl text-green-950 mt-6">2 Communication avec mon binôme</h3>
+                        <p class="leading-7 lg:leading-10 lg:text-lg">
+                            Un travail en binôme nécessite une bonne organisation pour qu'il soit bien réalisé. 
+                            Nous devions trouver un moyen de communiquer efficacement pour pouvoir accomplir le travail à faire, d'autant plus que nous étions en télétravail.
+                        </p>
+                        <p class="leading-7 lg:leading-10 lg:text-lg">
+                            Pour nous assurer que chauqe tache sois bien réalisé et pour ne pas nous marcher sur les pied, nous avons, 
+                            à l'aide de Figma, crée des listes de taches à faire et nous nous les sommes répartis de manière équitable en fonction de nos compétences respective. <br/>
+                            De cette façon, nous avons pus avancer de manière autonome. 
+                            Nous marquions sur le tableau commun l'avancement de nos tâches et réfléchissions à comment elles pouvaient être améliorées ou modifiées à la fin de la réalisation de chacune d'entre elles.
+                        </p>
+                    </div>
+                    <div class="w-2/5">
+                        <img src="/images/projects/nature_emois/liste_taches.png" alt="Check list des différentes tâches à effectué durant le projet" class="my-12 lg:h-auto"/>
+                    </div>
+                   
                 </section>
                 
                 <section>
