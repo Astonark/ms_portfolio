@@ -99,84 +99,100 @@ export default function NatureEmois() {
                    
                 </section>
                 
-                <section>
-                    <h2 class="mx-12 text-2xl mt-12 font-semibold text-green-950 text-center">Les difficultés rencontrées</h2>
-                    <p class="mx-12 mt-6 text-xl font-medium leading-9">
+                <section class="lg:w-10/12 lg:mx-auto lg:flex lg:flex-col">
+                    <h2 class="mx-12 text-2xl lg:text-4xl mt-12 font-semibold text-green-950 text-center lg:text-left">Les difficultés rencontrées</h2>
+                    <p class="mx-12 mt-6 text-xl text-2xl font-medium leading-9">
                         La plus grande difficulté de ce stage à pour ma part été de créer des illulstrations parlantes et simple à partir de termes et de notions compliquées avec lesquelles je n'était pas famillière.
                     </p>
-                    <h3 class="mx-12 font-bold text-xl text-green-950 mt-6">1 L'illustration du log</h3>
-                    <p class="mx-12 leading-7">
-                        Pour le logo, nous avions les critères suivants : <br/>
-                        - Mettre en relation le corps et l'émotion <br/>
-                        - De la rondeur mais tout en finesse <br/>
-                        - Couleurs : vert, violet --> nature, fleur de lotus <br/>
-                        - Mots clés : hauteur, calme, sérénité, prise de hauteur <br/>
-                        - Nature = lumière, image d'autonne, réconfort, appaisement, plante arromatique (formation de préparation en pharmacie) <br/>
-                        <strong>Red flag : </strong> ne pas utiliser les mots traitements et soins
-                    </p>
+                    <div class="lg:flex lg:flex-wrap lg:mt-20">
+                        <div class="lg:w-2/5">
+                            <h3 class="mx-12 font-bold text-xl lg:text-2xl text-green-950 mt-6">1 L'illustration du log</h3>
+                            <p class="mx-12 leading-7 lg:leading-10 lg:text-lg">
+                                Pour le logo, nous avions les critères suivants : <br/>
+                                - Mettre en relation le corps et l'émotion <br/>
+                                - De la rondeur mais tout en finesse <br/>
+                                - Couleurs : vert, violet --> nature, fleur de lotus <br/>
+                                - Mots clés : hauteur, calme, sérénité, prise de hauteur <br/>
+                                - Nature = lumière, image d'autonne, réconfort, appaisement, plante arromatique (formation de préparation en pharmacie) <br/>
+                                <strong>Red flag : </strong> ne pas utiliser les mots traitements et soins
+                            </p>
+                        </div>
 
-                    <div class="mx-2 my-12">
-                        <img src="/images/projects/nature_emois/frise_logos.png" alt="Évolution du logo au fil du temps" />
-                        <img src="/images/projects/nature_emois/frise_logos_2.png" alt="Évolution du logo au fil du temps" class="" />
+                        <div class="mx-2 my-12 lg:order-last">
+                            <img src="/images/projects/nature_emois/frise_logos.png" alt="Évolution du logo au fil du temps" />
+                            <img src="/images/projects/nature_emois/frise_logos_2.png" alt="Évolution du logo au fil du temps" class="" />
+                        </div>
+                        <p class="mx-12 leading-7 lg:leading-10 lg:order-2 lg:w-2/5 lg:mt-12">
+                            Suite aux premiers rendez-vous, nous avons, en accord acec les directives reçus, créé un premier logo. Pour ce faire, beaucoup de recherches ont été effectués. Pas seulement au niveau visuel, mais aussi du point de vue technique.
+                            Les termes utilisés ne nous étant pas commun, nous avons du chercher la signification de certains d'entre eux pour pouvoir ensuite créer des visuels cohérents. <br/>
+                            À partir de là, nous avons créer des visuels et les avons modifé au fur et à mesure des rendez-vous pour arriver à un résultat qualitatif, et satisfaisant.
+                        </p>
                     </div>
-                    <p class="mx-12 leading-7">
-                        Suite aux premiers rendez-vous, nous avons, en accord acec les directives reçus, créé un premier logo. Pour ce faire, beaucoup de recherches ont été effectués. Pas seulement au niveau visuel, mais aussi du point de vue technique.
-                        Les termes utilisés ne nous étant pas commun, nous avons du chercher la signification de certains d'entre eux pour pouvoir ensuite créer des visuels cohérents. <br/>
-                        À partir de là, nous avons créer des visuels et les avons modifé au fur et à mesure des rendez-vous pour arriver à un résultat qualitatif, et satisfaisant.
-                    </p>
                 </section>
 
-                <section class="mx-12">
-                    <h3 class="font-bold text-xl text-green-950 mt-6">2 Les pictogrammes</h3>
-                    <p class="leading-7">
-                        Les pictogrammes avaient pour but d'illustrer les différents services que Sandra propose en tant que naturopathe. <br/>
-                        Aussi petits soient-ils, ils devaient être compréhensibles d'un simple coup d'oeil et dans un style facilement déclinable pour qu'ils soient harmonieux les uns avec les autres. <br/>
-                        Les 4 pictogrammes en couleurs sont quand à eux des vignettes pour des visuels très petis ainsi que pour habiller les pages et le site.
-                    </p>
+                <section class="lg:flex lg:justify-center">
+                    <div class="lg:w-2/5 lg:order-last lg:mt-36">
+                        <h3 class="mx-12 font-bold text-xl lg:text-4xl text-green-950 mt-6">2 Les pictogrammes</h3>
+                        <p class="mx-12 leading-7 lg:leading-10 lg:text-xl">
+                            Les pictogrammes avaient pour but d'illustrer les différents services que Sandra propose en tant que naturopathe. <br/>
+                            Aussi petits soient-ils, ils devaient être compréhensibles d'un simple coup d'oeil et dans un style facilement déclinable pour qu'ils soient harmonieux les uns avec les autres. <br/>
+                            Les 4 pictogrammes en couleurs sont quand à eux des vignettes pour des visuels très petis ainsi que pour habiller les pages et le site.
+                        </p>
+                    </div>
+                    <div class="lg:w-2/5">
+                        <img src="/images/projects/nature_emois/carte_pictogrammes_2.png" alt="Présentation de tous les pictogrammes dans différentes couleurs" />
+                    </div>
                 </section>
 
-                <img src="/images/projects/nature_emois/carte_pictogrammes_2.png" alt="Présentation de tous les pictogrammes dans différentes couleurs" />
 
-                <section class="mx-12">
-                    <h2 class="mx-12 text-2xl mt-12 font-semibold text-green-950 text-center">Les missions</h2>
-                    <ul class="ml-24 text-xl list-disc list-inside">
-                        <li>Logotype</li>
-                        <li>Chartre Graphique</li>
-                        <li>Site internet</li>
-                    </ul>
+                <section class="mx-12 lg:flex lg:justify-center">
+                    <div class="lg:w-3/6">
+                        <h2 class="mx-12 text-2xl lg:text-2xl mt-12 font-semibold text-green-950 text-center lg:text-left">Les missions</h2>
+                        <ul class="ml-24 lg:ml-0 text-xl list-disc list-inside">
+                            <li>Logotype</li>
+                            <li>Chartre Graphique</li>
+                            <li>Site internet</li>
+                        </ul>
 
-                    <h3 class="font-bold text-xl text-green-950 mt-6">1 Logotype</h3>
-                    <p class="leading-7">
-                        La première de nos missions à été de réaliser le logo de Natur'Emois. 
-                        Comme vue précédement, il a fallut beaucoup de travail pour arriver au résultat final. 
-                        Le logo a ensuite été décliné sous sa forme typographique pour être plus lisible sur des petits visuels.
-                    </p>
-
-                    <img src="/images/projects/nature_emois/logo_typographique.png" alt="Logo typographique de Natur'Emois" class="my-6" />
-                    <img src="/images/projects/nature_emois/grand_logo.png" alt="Logo typographique de Natur'Emois" />
-
-                    <h3 class="font-bold text-xl text-green-950 mt-6">2 Chartre Graphique</h3>
-                    <p class="leading-7">
-                        Deuxième mission : la création de la chartre graphique. 
-                        Une fois crée, elle nous a permis de décliner le logo en plusieurs couleurs et confirmer la typographie du logo. <br/>
-                        La chartre graphique est une parite non négligeable dans la création d'une identité graphique, c'est elle qui va faire office de mode d'emploi pour l'utilisation du logo,
-                        des coleurs et de tous les accents.
-                    </p>
+                        <h3 class="font-bold text-xl text-green-950 mt-6">1 Logotype</h3>
+                        <p class="leading-7">
+                            La première de nos missions à été de réaliser le logo de Natur'Emois. 
+                            Comme vue précédement, il a fallut beaucoup de travail pour arriver au résultat final. 
+                            Le logo a ensuite été décliné sous sa forme typographique pour être plus lisible sur des petits visuels.
+                        </p>
+                    </div>
+                    <div class="lg:w-3/6">
+                        <img src="/images/projects/nature_emois/logo_typographique.png" alt="Logo typographique de Natur'Emois" class="my-6" />
+                        <img src="/images/projects/nature_emois/grand_logo.png" alt="Logo typographique de Natur'Emois" />
+                    </div>
                 </section>
 
-                <div class="flex max-w-full mx-2 my-12">
-                    <img src="/images/projects/nature_emois/chartre_graphique_1.png" alt="Logo typographique de Natur'Emois" class="w-3/6 h-auto mr-2"/>
-                    <img src="/images/projects/nature_emois/chartre_graphique_2.png" alt="Logo typographique de Natur'Emois" class="ml-2 w-3/6 h-auto"/>
+                <div class="lg:flex lg:items-center lg:mt-20 lg:mx-20">
+                    <div>
+                        <h3 class="mx-12 font-bold text-xl lg:text-4xl text-green-950 mt-12">2 Chartre Graphique</h3>
+                        <p class="mx-12 leading-7 lg:leading-10">
+                            Deuxième mission : la création de la chartre graphique. 
+                            Une fois crée, elle nous a permis de décliner le logo en plusieurs couleurs et confirmer la typographie du logo. <br/>
+                            La chartre graphique est une parite non négligeable dans la création d'une identité graphique, c'est elle qui va faire office de mode d'emploi pour l'utilisation du logo,
+                            des coleurs et de tous les accents.
+                        </p>
+                    </div>
+
+                    <div class="flex max-w-full mx-2 my-12">
+                        <img src="/images/projects/nature_emois/chartre_graphique_1.png" alt="Logo typographique de Natur'Emois" class="w-3/6 h-auto mr-2"/>
+                        <img src="/images/projects/nature_emois/chartre_graphique_2.png" alt="Logo typographique de Natur'Emois" class="ml-2 w-3/6 h-auto"/>
+                    </div>
                 </div>
 
-                <div class="grid gap-4 gap-y-10 grid-cols-2 grid-rows-2 mx-12">
+
+                <div class="grid gap-4 gap-y-10 grid-cols-2 lg:grid-cols-4 grid-rows-2 lg:grid-rows-1 mx-12 lg:mt-20">
                     <div>
                         <p class="text-brown-1000 font-extrabold text-sm text-center mb-6">LES COULEURS PRINCIPALES</p>
-                        <img src="/images/projects/nature_emois/primary_colors.png" alt="Couleurs primaires utilisées pour le projet" />
+                        <img src="/images/projects/nature_emois/primary_colors.png" class="lg:w-3/6" alt="Couleurs primaires utilisées pour le projet" />
                     </div>
                     <div>
                         <p class="text-brown-1000 font-extrabold text-sm text-center mb-6">LES COULEURS SECONDAIRES</p>
-                        <img src="/images/projects/nature_emois/secondary_colors.png" alt="Couleurs secondaires utilisées pour le projet" />
+                        <img src="/images/projects/nature_emois/secondary_colors.png" class="lg:w-3/6" alt="Couleurs secondaires utilisées pour le projet" />
                     </div>
                     <div>
                         <p class="text-brown-1000 font-extrabold text-sm text-center mb-6">POUR LES TITRES</p>
@@ -188,14 +204,18 @@ export default function NatureEmois() {
                     </div>
                 </div>
 
-                <section class="mx-12">
-                    <h3 class="font-bold text-xl text-green-950 mt-6">3 Maquette Web</h3>
-                    <p class="leading-7">
-                        Concernant la maquette web, Sandra nous avait demandé un site uno page avec une présentation d'elle et de son métier, une rapide explication des différents aspects de son métier ainsi qu'une partie vente avec les prestations proposés et leurs tarifs.
-                    </p>
+                <section class="lg:flex lg:mx-12 lg:mt-20">
+                    <div class="lg:order-last">
+                        <h3 class="mx-12 font-bold text-xl lg:text-4xl text-green-950 mt-6 lg:mt-20">3 Maquette Web</h3>
+                        <p class="mx-12 leading-7 lg:leading-10 lg:text-lg">
+                            Concernant la maquette web, Sandra nous avait demandé un site uno page avec une présentation d'elle et de son métier, une rapide explication des différents aspects de son métier ainsi qu'une partie vente avec les prestations proposés et leurs tarifs.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="/images/projects/nature_emois/visuel_maquette_web.png" alt="Visuels des maquettes sur ordinateur" class="mx-3 my-12" />
+                    </div>
                 </section>
 
-                <img src="/images/projects/nature_emois/visuel_maquette_web.png" alt="Visuels des maquettes sur ordinateur" class="mx-3 my-12" />
 
                 <div>
                     <section class="mx-12">
