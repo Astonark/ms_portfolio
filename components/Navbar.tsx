@@ -5,7 +5,8 @@ export function Navbar() {
     <>
       <head>
         <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@400;700&display=swap');
         </style>
       </head>
       <nav>

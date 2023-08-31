@@ -19,26 +19,26 @@ export default function NatureEmois() {
                    <li>Site internet</li>
                 </ul>
 
-                <div class="grid gap-4 grid-cols-3 grid-rows-3 mx-6 mt-12 text-center text-white">
-                    <div class="bg-brown-950 rounded-md py-3 shadow-2xl">
+                <div class="grid gap-3 grid-cols-3 grid-rows-3 mx-6 mt-12 text-center text-white">
+                    <div class="bg-brown-950 rounded-md p-3 shadow-2xl">
                         <p class="">Natur'Emois qu'est ce que c'est&nbsp;?</p>
                     </div>
-                    <div class="bg-brown-950 rounded-md py-3 shadow-2xl">
+                    <div class="bg-brown-950 rounded-md p-3 shadow-2xl">
                         <p class="">L'environnement de travail</p>
                     </div>
-                    <div class="bg-brown-950 rounded-md py-3 shadow-2xl">
+                    <div class="bg-brown-950 rounded-md p-3 shadow-2xl">
                         <span class="">Les difficultés rencontrées</span>
                     </div>
-                    <div class="bg-brown-950 rounded-md py-3 shadow-2xl">
+                    <div class="bg-brown-950 rounded-md p-3 shadow-2xl">
                         <p class="">Les missions</p>
                     </div>
-                    <div class="bg-brown-950 rounded-md py-3 shadow-2xl">
+                    <div class="bg-brown-950 rounded-md p-3 shadow-2xl">
                         <p class="">Les connaissances mobilisées</p>
                     </div>
-                    <div class="bg-brown-950 rounded-md py-3 shadow-2xl">
+                    <div class="bg-brown-950 rounded-md p-3 shadow-2xl">
                         <p class="">Les compétences acquises</p>
                     </div>
-                    <p class="bg-brown-950 col-span-3 h-8">Bilan du stage</p>
+                    <p class="bg-brown-950 col-span-3 h-8 rounded-md">Bilan du stage</p>
                 </div>
 
                 <h2 class="mx-12 text-2xl mt-12 font-semibold text-green-950 font-['Lexend'] text-center">Natur'Emois qu'est-ce <br/> que c'est&nbsp;?</h2>
@@ -110,114 +110,141 @@ export default function NatureEmois() {
                     </p>
                 </section>
 
-                <section>
-                    <h3>2 Les pictogrammes</h3>
-                    <p>
+                <section class="mx-12">
+                    <h3 class="font-bold text-xl text-green-950 mt-6">2 Les pictogrammes</h3>
+                    <p class="leading-7">
                         Les pictogrammes avaient pour but d'illustrer les différents services que Sandra propose en tant que naturopathe. <br/>
                         Aussi petits soient-ils, ils devaient être compréhensibles d'un simple coup d'oeil et dans un style facilement déclinable pour qu'ils soient harmonieux les uns avec les autres. <br/>
                         Les 4 pictogrammes en couleurs sont quand à eux des vignettes pour des visuels très petis ainsi que pour habiller les pages et le site.
                     </p>
-                    <img src="/images/projects/nature_emois/carte_pictogrammes_2.png" alt="Présentation de tous les pictogrammes dans différentes couleurs" />
                 </section>
 
-                <section>
-                    <h2>Les missions</h2>
-                    <ul>
+                <img src="/images/projects/nature_emois/carte_pictogrammes_2.png" alt="Présentation de tous les pictogrammes dans différentes couleurs" />
+
+                <section class="mx-12">
+                    <h2 class="mx-12 text-2xl mt-12 font-semibold text-green-950 text-center">Les missions</h2>
+                    <ul class="ml-24 text-xl list-disc list-inside">
                         <li>Logotype</li>
                         <li>Chartre Graphique</li>
                         <li>Site internet</li>
                     </ul>
 
-                    <h3>1 Logotype</h3>
-                    <p>
-                        La première de nos missions à été de réaliser le logo de Natur'Emois. Comme vue précédement, il a fallut beaucoup de travail pour arriver au résultat final. Le logo a ensuite été décliné sous sa forme typographique pour être plus lisible sur des petits visuels.
+                    <h3 class="font-bold text-xl text-green-950 mt-6">1 Logotype</h3>
+                    <p class="leading-7">
+                        La première de nos missions à été de réaliser le logo de Natur'Emois. 
+                        Comme vue précédement, il a fallut beaucoup de travail pour arriver au résultat final. 
+                        Le logo a ensuite été décliné sous sa forme typographique pour être plus lisible sur des petits visuels.
                     </p>
-                    <img src="/images/projects/nature_emois/logo_typographique.png" alt="Logo typographique de Natur'Emois" />
+
+                    <img src="/images/projects/nature_emois/logo_typographique.png" alt="Logo typographique de Natur'Emois" class="my-6" />
                     <img src="/images/projects/nature_emois/grand_logo.png" alt="Logo typographique de Natur'Emois" />
 
-
-                    <h3>2 Chartre Graphique</h3>
-                    <p>
-                        Deuxième mission : la création de la chartre graphique. Une fois crée, elle nous a permis de décliner le logo en plusieurs couleurs et confirmer la typographie du logo.
+                    <h3 class="font-bold text-xl text-green-950 mt-6">2 Chartre Graphique</h3>
+                    <p class="leading-7">
+                        Deuxième mission : la création de la chartre graphique. 
+                        Une fois crée, elle nous a permis de décliner le logo en plusieurs couleurs et confirmer la typographie du logo. <br/>
+                        La chartre graphique est une parite non négligeable dans la création d'une identité graphique, c'est elle qui va faire office de mode d'emploi pour l'utilisation du logo,
+                        des coleurs et de tous les accents.
                     </p>
-                    <p>
-                        La chartre graphique est une parite non négligeable dans la création d'une identité graphique, c'est elle qui va faire office de mode d'emploi pour l'utilisation du logo, des coleurs et de tous les accents.
-                    </p>
+                </section>
 
+                <div class="flex max-w-full mx-2 my-12">
+                    <img src="/images/projects/nature_emois/chartre_graphique_1.png" alt="Logo typographique de Natur'Emois" class="w-3/6 h-auto mr-2"/>
+                    <img src="/images/projects/nature_emois/chartre_graphique_2.png" alt="Logo typographique de Natur'Emois" class="ml-2 w-3/6 h-auto"/>
+                </div>
+
+                <div class="grid gap-4 gap-y-10 grid-cols-2 grid-rows-2 mx-12">
                     <div>
-                        <img src="/images/projects/nature_emois/chartre_graphique_1.png" alt="Logo typographique de Natur'Emois" />
-                        <img src="/images/projects/nature_emois/chartre_graphique_2.png" alt="Logo typographique de Natur'Emois" />
+                        <p class="text-brown-1000 font-extrabold text-sm text-center mb-6">LES COULEURS PRINCIPALES</p>
+                        <img src="/images/projects/nature_emois/primary_colors.png" alt="Couleurs primaires utilisées pour le projet" />
                     </div>
-
                     <div>
-                        <div>
-                            <p>LES COULEURS PRINCIPALES</p>
-                            <img src="/images/projects/nature_emois/primary_colors.png" alt="Couleurs primaires utilisées pour le projet" />
-                        </div>
-                        <div>
-                            <p>LES COULEURS SECONDAIRES</p>
-                            <img src="/images/projects/nature_emois/chartre_graphique_1.png" alt="Couleurs secondaires utilisées pour le projet" />
-                        </div>
-                        <div>
-                            <p>POUR LES TITRES</p>
-                            <p>CLASTER OLEANDER</p>
-                        </div>
-                        <div>
-                            <p>POUR LE TEXTE COURANT</p>
-                            <p>Montserra - regular ou <strong>bold</strong></p>
-                        </div>
+                        <p class="text-brown-1000 font-extrabold text-sm text-center mb-6">LES COULEURS SECONDAIRES</p>
+                        <img src="/images/projects/nature_emois/secondary_colors.png" alt="Couleurs secondaires utilisées pour le projet" />
                     </div>
+                    <div>
+                        <p class="text-brown-1000 font-extrabold text-sm text-center mb-6">POUR LES TITRES</p>
+                        <p class="ml-6">CLASTER OLEANDER</p>
+                    </div>
+                    <div>
+                        <p class="text-brown-1000 font-extrabold text-sm text-center mb-6">POUR LE TEXTE COURANT</p>
+                        <p class="ml-6 text-xs">Montserra - regular ou <strong>bold</strong></p>
+                    </div>
+                </div>
 
-                    <h3>3 Maquette Web</h3>
-                    <p>
+                <section class="mx-12">
+                    <h3 class="font-bold text-xl text-green-950 mt-6">3 Maquette Web</h3>
+                    <p class="leading-7">
                         Concernant la maquette web, Sandra nous avait demandé un site uno page avec une présentation d'elle et de son métier, une rapide explication des différents aspects de son métier ainsi qu'une partie vente avec les prestations proposés et leurs tarifs.
                     </p>
-                    <img src="/images/projects/nature_emois/visuel_maquette_web.png" alt="Visuels des maquettes sur ordinateur" />
-
-                    <h2>Les connaissances mobilisées</h2>
-                    <p>
-                        Au vue des différentes tâches à accomplir, nous avons du puisé dans toutes les connaissances que nous avions pour mener à bien le projet. <br/>
-                        Connaissance acquise en cours de stage pour la plupart et d'autres grâce à nos divers projets personnels.
-                    </p>
-
-                    <div>
-                        <div>
-                            <p>Capacité de synthétisation</p>
-                        </div>
-                        <div>
-                            <p>Recherches pertinantes</p>
-                        </div>
-                        <div>
-                            <p>Capacité de synthétisation</p>
-                        </div>
-                        <div>
-                            <p>Bonne organisation</p>
-                        </div>
-                    </div>
-
-                    <h2>Les compétences acquises</h2>
-                    <p>
-                        Travailler pour des projets de cours et des projets professionnels ne nous met pas à l'épreuve de la même façon. Certaines qualités ont pris toutes leurs importances lors du stage et me seront utiles pour mes futures projets quels qu'ils soient.
-                    </p>
-
-                    <div>
-                        <div>
-                            <p>Capacité d'illustration</p>
-                        </div>
-                        <div>
-                            <p>Communication efficace</p>
-                        </div>
-                        <div>
-                            <p>Repect des deadlines</p>
-                        </div>
-                        <div>
-                            <p>Rendu propre et professionnel</p>
-                        </div>
-                    </div>
-
-                    <h2>Bilan du stage</h2>
-                    <h3>6 semaines de stage, qu'est-ce qu'on en retient ?</h3>
                 </section>
+
+                <img src="/images/projects/nature_emois/visuel_maquette_web.png" alt="Visuels des maquettes sur ordinateur" class="mx-3 my-12" />
+
+                <div>
+                    <section class="mx-12">
+                        <h2 class="text-2xl mt-12 font-semibold text-green-950 text-center">Les connaissances mobilisées</h2>
+                        <p class="leading-7">
+                            Au vue des différentes tâches à accomplir, nous avons du puisé dans toutes les connaissances que nous avions pour mener à bien le projet. <br/>
+                            Connaissance acquise en cours de stage pour la plupart et d'autres grâce à nos divers projets personnels.
+                        </p>
+                    </section>
+
+                    <div class="grid gap-4 grid-cols-2 grid-rows-2 my-12 mx-6 text-white text-center">
+                        <div class="bg-[#B1D2D9] p-3 rounded">Capacité de synthétisation</div>
+                        <div class="bg-[#B1D2D9] p-3 rounded">Recherches pertinantes</div>
+                        <div class="bg-[#B1D2D9] p-3 rounded">Capacité de synthétisation</div>
+                        <div class="bg-[#B1D2D9] p-3 rounded">Bonne schématisation</div>
+                    </div>
+
+                    <section class="mx-12">
+                        <h2 class="text-2xl mt-12 font-semibold text-green-950 text-center">Les compéteces acquises</h2>
+                        <p class="leading-7">
+                            Travailler pour des projets de cours et des projets professionnels ne nous met pas à l'épreuve de la même façon.
+                            Certaines qualités ont pris toutes leurs importances lors du stage et me seront utiles pour mes futures projets quels qu'ils soient.
+                        </p>
+                    </section>
+
+                    <div class="grid gap-4 grid-cols-2 grid-rows-2 my-12 mx-6 text-white text-center">
+                        <div class="bg-[#D4A344] p-3 rounded">Capacité d'illustration</div>
+                        <div class="bg-[#D4A344] p-3 rounded">Communicatioin efficace</div>
+                        <div class="bg-[#D4A344] p-3 rounded">Respect des deadlines</div>
+                        <div class="bg-[#D4A344] p-3 rounded">Rendu propre et professionnel</div>
+                    </div>
+                </div>
+
+                    <section class="mx-12">
+                        <h2 class="text-2xl mt-12 font-semibold text-green-950 font-['Lexend'] text-center">Bilan du stage</h2>
+                        <p class="mt-6 text-lg font-medium font-['Lexend']">6 semaines de stage, qu'est-ce que l'on en retient</p>
+                        <p class="leading-7">
+                            Ce stage m'a' permis de réaliser l'importance d'avoir une bonne organisation. Lorsque nous travaillons pour un professionnel,
+                            il est normal d'avoir des deadlines ainsi que des rendez-vous intermittent. Si tout l'avancement du projet n'a pas été planifié à l'avance avec des temps dédiés à chaque étape importante,
+                            nous nous retrouvons bloqué à un moment où a un autre. Une minimisation de la charge de travail peux entrainer un retard difficle à rattraper par la suite.
+                            C'est d'autant plus embêtant lorsque nous travaillons en binôme et donc que notre travail est utile pour que le collègue puisse travailler. <br></br>
+                        </p>
+                        <p class="leading-7 mt-3">
+                            Je suis fière du réalisé. Ce stage m'a mit à l'épreuve quand à ma capacité à pouvoir répondre correctement à une demande.
+                            J'ai pu me prouver que je maîtrisais les fondementaux du graphisme et que j'étais capable de m'adapter aux clients et non à mes goûts personnels,
+                            tout en guidant le cleint vers quelque chose de fonctionnel et esthétique. <br></br>
+                        </p>
+                        <p class="leading-7 mt-3">
+                            Plusieurs  rendus ont été demandé, tous différents les uns des autres. Entre un logo et un site internet, les règles à respecter ne sont pas les même. 
+                            Il a donc été très formateur pour moi de pouvoir travailler sur un projet ou ces deux missions étaient à réaliser. 
+                            Cela m’a permis de mettre à l’épreuve m’a polyvalence et que du bon en ai sortis&nbsp;! 
+                        </p>
+                        <p class="leading-7 mt-3">
+                            Si je pouvais améliorer quelque chose, je changerais peut-être le temps que j’ai accorder à mes recherches. 
+                            Avec le recule, beaucoup de modification ont été réalisées avant d’atteindre le résultat final. 
+                            Tout ces essaies et changements auraient peut-être moindre avec des recherches plus poussés. 
+                            En effet, après de nombreuse heurs de recherches, 
+                            des croquis ont été fait en grand nombre et un grand travail d’expérimentation à été réaliser mais tout cela par rapport à 3 ou 4 pistes graphiques jugé intéressent et pertinentes pour le projets et le client. 
+                            Il aurait peut-être été bon de réduire le nombre de piste mais de les pousser un peu plus loin pour pouvoir avoir moins de changement à faire par la suite.
+                        </p>
+                        <p class="leading-7 mt-3">
+                            Mais encore une fois je ne regrette rien, tout cela s’apprend avec le temps et en temps que apprentis je suis plus que fière du rendu finale. 
+                            Je suis convaincu que tout ce que j’ai pu faire durant ce stage me sera très précieux dans le futur.
+                        </p>
+                    </section>
             </main>
             <Footer></Footer>
         </>
