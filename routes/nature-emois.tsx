@@ -145,25 +145,31 @@ export default function NatureEmois() {
                 </section>
 
 
-                <section class="mx-12 lg:flex lg:justify-center">
-                    <div class="lg:w-3/6">
-                        <h2 class="mx-12 text-2xl lg:text-2xl mt-12 font-semibold text-green-950 text-center lg:text-left">Les missions</h2>
-                        <ul class="ml-24 lg:ml-0 text-xl list-disc list-inside">
-                            <li>Logotype</li>
-                            <li>Chartre Graphique</li>
-                            <li>Site internet</li>
-                        </ul>
+                <section class="mx-12 lg:mx-36 lg:flex lg:justify-center">
+                    <div class="lg:ml-36">
+                        <div class="lg:w-4/12">
+                            <h2 class="mx-12 lg:mx-0 text-2xl lg:text-4xl mt-12 font-semibold text-green-950 text-center lg:text-left">Les missions</h2>
+                            <ul class="ml-24 lg:ml-6 text-xl list-disc list-inside lg:text-lg">
+                                <li>Logotype</li>
+                                <li>Chartre Graphique</li>
+                                <li>Site internet</li>
+                            </ul>
 
-                        <h3 class="font-bold text-xl text-green-950 mt-6">1 Logotype</h3>
-                        <p class="leading-7">
-                            La première de nos missions à été de réaliser le logo de Natur'Emois. 
-                            Comme vue précédement, il a fallut beaucoup de travail pour arriver au résultat final. 
-                            Le logo a ensuite été décliné sous sa forme typographique pour être plus lisible sur des petits visuels.
-                        </p>
-                    </div>
-                    <div class="lg:w-3/6">
-                        <img src="/images/projects/nature_emois/logo_typographique.png" alt="Logo typographique de Natur'Emois" class="my-6" />
-                        <img src="/images/projects/nature_emois/grand_logo.png" alt="Logo typographique de Natur'Emois" />
+                            <h3 class="font-bold text-xl lg:text-2xl text-green-950 mt-6">1 Logotype</h3>
+                            <p class="leading-7 lg:leading-10 lg:text-lg">
+                                La première de nos missions à été de réaliser le logo de Natur'Emois. 
+                                Comme vue précédement, il a fallut beaucoup de travail pour arriver au résultat final. 
+                                Le logo a ensuite été décliné sous sa forme typographique pour être plus lisible sur des petits visuels.
+                            </p>
+                        </div>
+                        <div class="lg:flex lg:justify-center">
+                            <div class="lg:w-2/5 lg:-ml-60 lg:mt-48">
+                                <img src="/images/projects/nature_emois/logo_typographique.png" alt="Logo typographique de Natur'Emois" class="my-6" />
+                            </div>
+                            <div class="lg:w-2/5 lg:ml-12 lg:-mt-96">
+                                <img src="/images/projects/nature_emois/grand_logo.png" alt="Logo typographique de Natur'Emois" />
+                            </div>
+                        </div>
                     </div>
                 </section>
 
@@ -217,70 +223,74 @@ export default function NatureEmois() {
                 </section>
 
 
-                <div>
-                    <section class="mx-12">
-                        <h2 class="text-2xl mt-12 font-semibold text-green-950 text-center">Les connaissances mobilisées</h2>
-                        <p class="leading-7">
-                            Au vue des différentes tâches à accomplir, nous avons du puisé dans toutes les connaissances que nous avions pour mener à bien le projet. <br/>
-                            Connaissance acquise en cours de stage pour la plupart et d'autres grâce à nos divers projets personnels.
-                        </p>
-                    </section>
+                <div class="lg:flex">
+                    <div class="lg:w-3/6">
+                        <section class="mx-12">
+                            <h2 class="text-2xl lg:text-4xl mt-12 font-semibold text-green-950 text-center">Les connaissances mobilisées</h2>
+                            <p class="leading-7">
+                                Au vue des différentes tâches à accomplir, nous avons du puisé dans toutes les connaissances que nous avions pour mener à bien le projet. <br/>
+                                Connaissance acquise en cours de stage pour la plupart et d'autres grâce à nos divers projets personnels.
+                            </p>
+                        </section>
 
-                    <div class="grid gap-4 grid-cols-2 grid-rows-2 my-12 mx-6 text-white text-center">
-                        <div class="bg-[#B1D2D9] p-3 rounded">Capacité de synthétisation</div>
-                        <div class="bg-[#B1D2D9] p-3 rounded">Recherches pertinantes</div>
-                        <div class="bg-[#B1D2D9] p-3 rounded">Capacité de synthétisation</div>
-                        <div class="bg-[#B1D2D9] p-3 rounded">Bonne schématisation</div>
+                        <div class="grid gap-4 grid-cols-2 grid-rows-2 my-12 mx-6 text-white text-center">
+                            <div class="bg-[#B1D2D9] p-3 rounded">Capacité de synthétisation</div>
+                            <div class="bg-[#B1D2D9] p-3 rounded">Recherches pertinantes</div>
+                            <div class="bg-[#B1D2D9] p-3 rounded">Capacité de synthétisation</div>
+                            <div class="bg-[#B1D2D9] p-3 rounded">Bonne schématisation</div>
+                        </div>
                     </div>
 
-                    <section class="mx-12">
-                        <h2 class="text-2xl mt-12 font-semibold text-green-950 text-center">Les compéteces acquises</h2>
-                        <p class="leading-7">
-                            Travailler pour des projets de cours et des projets professionnels ne nous met pas à l'épreuve de la même façon.
-                            Certaines qualités ont pris toutes leurs importances lors du stage et me seront utiles pour mes futures projets quels qu'ils soient.
-                        </p>
-                    </section>
+                    <div class="lg:w-3/6">
+                        <section class="mx-12">
+                            <h2 class="text-2xl lg:text-4xl mt-12 font-semibold text-green-950 text-center">Les compéteces acquises</h2>
+                            <p class="leading-7">
+                                Travailler pour des projets de cours et des projets professionnels ne nous met pas à l'épreuve de la même façon.
+                                Certaines qualités ont pris toutes leurs importances lors du stage et me seront utiles pour mes futures projets quels qu'ils soient.
+                            </p>
+                        </section>
 
-                    <div class="grid gap-4 grid-cols-2 grid-rows-2 my-12 mx-6 text-white text-center">
-                        <div class="bg-[#D4A344] p-3 rounded">Capacité d'illustration</div>
-                        <div class="bg-[#D4A344] p-3 rounded">Communicatioin efficace</div>
-                        <div class="bg-[#D4A344] p-3 rounded">Respect des deadlines</div>
-                        <div class="bg-[#D4A344] p-3 rounded">Rendu propre et professionnel</div>
+                        <div class="grid gap-4 grid-cols-2 grid-rows-2 my-12 mx-6 text-white text-center">
+                            <div class="bg-[#D4A344] p-3 rounded">Capacité d'illustration</div>
+                            <div class="bg-[#D4A344] p-3 rounded">Communicatioin efficace</div>
+                            <div class="bg-[#D4A344] p-3 rounded">Respect des deadlines</div>
+                            <div class="bg-[#D4A344] p-3 rounded">Rendu propre et professionnel</div>
+                        </div>
                     </div>
                 </div>
 
-                    <section class="mx-12">
-                        <h2 class="text-2xl mt-12 font-semibold text-green-950 font-['Lexend'] text-center">Bilan du stage</h2>
-                        <p class="mt-6 text-lg font-medium font-['Lexend']">6 semaines de stage, qu'est-ce que l'on en retient</p>
-                        <p class="leading-7">
-                            Ce stage m'a' permis de réaliser l'importance d'avoir une bonne organisation. Lorsque nous travaillons pour un professionnel,
-                            il est normal d'avoir des deadlines ainsi que des rendez-vous intermittent. Si tout l'avancement du projet n'a pas été planifié à l'avance avec des temps dédiés à chaque étape importante,
-                            nous nous retrouvons bloqué à un moment où a un autre. Une minimisation de la charge de travail peux entrainer un retard difficle à rattraper par la suite.
-                            C'est d'autant plus embêtant lorsque nous travaillons en binôme et donc que notre travail est utile pour que le collègue puisse travailler. <br></br>
-                        </p>
-                        <p class="leading-7 mt-3">
-                            Je suis fière du réalisé. Ce stage m'a mit à l'épreuve quand à ma capacité à pouvoir répondre correctement à une demande.
-                            J'ai pu me prouver que je maîtrisais les fondementaux du graphisme et que j'étais capable de m'adapter aux clients et non à mes goûts personnels,
-                            tout en guidant le cleint vers quelque chose de fonctionnel et esthétique. <br></br>
-                        </p>
-                        <p class="leading-7 mt-3">
-                            Plusieurs  rendus ont été demandé, tous différents les uns des autres. Entre un logo et un site internet, les règles à respecter ne sont pas les même. 
-                            Il a donc été très formateur pour moi de pouvoir travailler sur un projet ou ces deux missions étaient à réaliser. 
-                            Cela m’a permis de mettre à l’épreuve m’a polyvalence et que du bon en ai sortis&nbsp;! 
-                        </p>
-                        <p class="leading-7 mt-3">
-                            Si je pouvais améliorer quelque chose, je changerais peut-être le temps que j’ai accorder à mes recherches. 
-                            Avec le recule, beaucoup de modification ont été réalisées avant d’atteindre le résultat final. 
-                            Tout ces essaies et changements auraient peut-être moindre avec des recherches plus poussés. 
-                            En effet, après de nombreuse heurs de recherches, 
-                            des croquis ont été fait en grand nombre et un grand travail d’expérimentation à été réaliser mais tout cela par rapport à 3 ou 4 pistes graphiques jugé intéressent et pertinentes pour le projets et le client. 
-                            Il aurait peut-être été bon de réduire le nombre de piste mais de les pousser un peu plus loin pour pouvoir avoir moins de changement à faire par la suite.
-                        </p>
-                        <p class="leading-7 mt-3">
-                            Mais encore une fois je ne regrette rien, tout cela s’apprend avec le temps et en temps que apprentis je suis plus que fière du rendu finale. 
-                            Je suis convaincu que tout ce que j’ai pu faire durant ce stage me sera très précieux dans le futur.
-                        </p>
-                    </section>
+                <section class="mx-12 lg:mx-36">
+                    <h2 class="text-2xl lg:text-4xl mt-12 font-semibold text-green-950 font-['Lexend'] text-center lg:text-left">Bilan du stage</h2>
+                    <p class="mt-6 text-lg lg:text-2xl font-medium font-['Lexend']">6 semaines de stage, qu'est-ce que l'on en retient</p>
+                    <p class="leading-7 lg:leading-10">
+                        Ce stage m'a' permis de réaliser l'importance d'avoir une bonne organisation. Lorsque nous travaillons pour un professionnel,
+                        il est normal d'avoir des deadlines ainsi que des rendez-vous intermittent. Si tout l'avancement du projet n'a pas été planifié à l'avance avec des temps dédiés à chaque étape importante,
+                        nous nous retrouvons bloqué à un moment où a un autre. Une minimisation de la charge de travail peux entrainer un retard difficle à rattraper par la suite.
+                        C'est d'autant plus embêtant lorsque nous travaillons en binôme et donc que notre travail est utile pour que le collègue puisse travailler. <br></br>
+                    </p>
+                    <p class="leading-7 mt-3">
+                        Je suis fière du réalisé. Ce stage m'a mit à l'épreuve quand à ma capacité à pouvoir répondre correctement à une demande.
+                        J'ai pu me prouver que je maîtrisais les fondementaux du graphisme et que j'étais capable de m'adapter aux clients et non à mes goûts personnels,
+                        tout en guidant le cleint vers quelque chose de fonctionnel et esthétique. <br></br>
+                    </p>
+                    <p class="leading-7 mt-3">
+                        Plusieurs  rendus ont été demandé, tous différents les uns des autres. Entre un logo et un site internet, les règles à respecter ne sont pas les même. 
+                        Il a donc été très formateur pour moi de pouvoir travailler sur un projet ou ces deux missions étaient à réaliser. 
+                        Cela m’a permis de mettre à l’épreuve m’a polyvalence et que du bon en ai sortis&nbsp;! 
+                    </p>
+                    <p class="leading-7 mt-3">
+                        Si je pouvais améliorer quelque chose, je changerais peut-être le temps que j’ai accorder à mes recherches. 
+                        Avec le recule, beaucoup de modification ont été réalisées avant d’atteindre le résultat final. 
+                        Tout ces essaies et changements auraient peut-être moindre avec des recherches plus poussés. 
+                        En effet, après de nombreuse heurs de recherches, 
+                        des croquis ont été fait en grand nombre et un grand travail d’expérimentation à été réaliser mais tout cela par rapport à 3 ou 4 pistes graphiques jugé intéressent et pertinentes pour le projets et le client. 
+                        Il aurait peut-être été bon de réduire le nombre de piste mais de les pousser un peu plus loin pour pouvoir avoir moins de changement à faire par la suite.
+                    </p>
+                    <p class="leading-7 mt-3">
+                        Mais encore une fois je ne regrette rien, tout cela s’apprend avec le temps et en temps que apprentis je suis plus que fière du rendu finale. 
+                        Je suis convaincu que tout ce que j’ai pu faire durant ce stage me sera très précieux dans le futur.
+                    </p>
+                </section>
             </main>
             <Footer></Footer>
         </>
